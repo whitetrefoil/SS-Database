@@ -1,0 +1,151 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 14px;
+  -webkit-text-size-adjust: none;
+  color: #333333;
+}
+
+a {
+  color: #772200;
+  text-decoration: none;
+}
+
+#appHeader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  background-image: -moz-linear-gradient(top, #bf1f00 0%, #3f0a00 50%, #4c0c00 100%);
+  background-image: -webkit-linear-gradient(top, #bf1f00 0%, #3f0a00 50%, #4c0c00 100%);
+  background-image: -o-linear-gradient(top, #bf1f00 0%, #3f0a00 50%, #4c0c00 100%);
+  background-image: -ms-linear-gradient(top, #bf1f00 0%, #3f0a00 50%, #4c0c00 100%);
+  background-image: linear-gradient(top, #bf1f00 0%, #3f0a00 50%, #4c0c00 100%);
+}
+#appHeader h1 {
+  color: #ff7700;
+  padding: 0 0 0 10px;
+  margin: 0;
+  font-family: monospace;
+  font-size: 170%;
+  font-style: italic;
+  font-weight: bolder;
+  height: 60px;
+  line-height: 60px;
+}
+
+#appNavbar {
+  height: 60px;
+  width: 180px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  font-size: 110%;
+}
+#appNavbar ul {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#appNavbar ul li {
+  height: 100%;
+  width: 59px;
+  margin: 0;
+  padding: 0;
+  border-left: 1px solid #441100;
+  -moz-box-shadow: 1px 0 #720 inset;
+  -webkit-box-shadow: 1px 0 #720 inset;
+  -o-box-shadow: 1px 0 #720 inset;
+  -ms-box-shadow: 1px 0 #720 inset;
+  box-shadow: 1px 0 #720 inset;
+  float: left;
+}
+#appNavbar ul li a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 60px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffcc00;
+  text-shadow: 1px 1px 2px #ffaa00;
+}
+#appNavbar ul li.selected {
+  background-image: -moz-linear-gradient(top, #bf5f00 0%, #ff7f00 50%, #e57200 100%);
+  background-image: -webkit-linear-gradient(top, #bf5f00 0%, #ff7f00 50%, #e57200 100%);
+  background-image: -o-linear-gradient(top, #bf5f00 0%, #ff7f00 50%, #e57200 100%);
+  background-image: -ms-linear-gradient(top, #bf5f00 0%, #ff7f00 50%, #e57200 100%);
+  background-image: linear-gradient(top, #bf5f00 0%, #ff7f00 50%, #e57200 100%);
+}
+#appNavbar ul li.selected a {
+  color: #220000;
+  text-shadow: 1px 1px 2px #772200;
+}
+
+.page {
+  padding-top: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+.page table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+.page table th, .page table td {
+  border: 1px solid silver;
+}
+.page table th {
+  font-width: bold;
+  background-color: #fff7f0;
+}
+
+.monster-info {
+  margin: 10px 0;
+  padding: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #dddddd;
+  border-radius: 10px;
+  -moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+.monster-info h4 {
+  height: 20px;
+  line-height: 20px;
+  margin: 5px 0 5px 0;
+  padding: 0;
+}
+
+.monster-info.collapsed {
+  overflow: hidden;
+  height: 30px;
+  margin: 0;
+  border-radius: 0;
+  border-bottom: none;
+}
+.monster-info.collapsed.first-child {
+  border-radius: 10px 10px 0 0;
+}
+.monster-info.collapsed.last-child {
+  border-radius: 0 0 10px 10px;
+  border-bottom: 1px solid #dddddd;
+}
+.monster-info.collapsed.first-child.last-child {
+  border-radius: 10px;
+}
+.monster-info.collapsed:last-child {
+  border-bottom: 1px solid #dddddd;
+}
+.monster-info.collapsed table, .monster-info.collapsed div {
+  display: none;
+}
