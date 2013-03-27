@@ -424,5 +424,98 @@
 				"item": 164
 			}
 		]
+	},
+	{
+		"id": 26,
+		"name": "ワイバーン",
+		"isBoss": true,
+		"resist": [1, 1, 1, 1, 1],
+		"defences": [
+			{
+				"name": "全身",
+				"defence": [2, 2, 2, 2, 2, 2]
+			}
+		],
+		"parts": [
+			{
+				"name": "頭",
+				"hp": "A"
+			},
+			{
+				"name": "上半身",
+				"hp": "B"
+			},
+			{
+				"name": "左翼",
+				"hp": "D"
+			},
+			{
+				"name": "右翼",
+				"hp": "D"
+			}
+		],
+		"drops": [
+			{
+				"difficult": 1,
+				"item": 344
+			},
+			{
+				"difficult": 4,
+				"item": 345
+			},
+			{
+				"difficult": 10,
+				"item": 346
+			}
+		]
+	},
+	{
+		"id": 27,
+		"name": "エルフ女王",
+		"isBoss": true,
+		"mainWeakness": 1,
+		"resist": [2, 1, 1, 1, 0],
+		"defences": [
+			{
+				"name": "羽",
+				"defence": [3, 4, 2, 2, 2, 0]
+			},
+			{
+				"name": "その他",
+				"defence": [2, 3, 2, 2, 2, 2]
+			}
+		],
+		"parts": [
+			{
+				"name": "頭",
+				"hp": "C"
+			},
+			{
+				"name": "左羽",
+				"hp": "D"
+			},
+			{
+				"name": "右羽",
+				"hp": "D"
+			},
+			{
+				"name": "足",
+				"hp": "D"
+			}
+		],
+		"drops": [
+			{
+				"difficult": 2,
+				"item": 341
+			},
+			{
+				"difficult": 4,
+				"item": 342
+			},
+			{
+				"difficult": 8,
+				"item": 343
+			}
+		]
 	}
 ]
