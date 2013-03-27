@@ -474,15 +474,15 @@
 		"name": "エルフ女王",
 		"isBoss": true,
 		"mainWeakness": 1,
-		"resist": [2, 1, 1, 1, 0],
+		"resist": [2, 1, 1, 0, 1],
 		"defences": [
 			{
 				"name": "羽",
-				"defence": [3, 4, 2, 2, 2, 0]
+				"defence": [3, 4, 2, 2, 0, 2]
 			},
 			{
 				"name": "その他",
-				"defence": [2, 3, 2, 2, 2, 2]
+				"defence": [2, 3, 2, 2, 0, 2]
 			}
 		],
 		"parts": [
@@ -523,15 +523,15 @@
 		"name": "ガーゴイル",
 		"isBoss": true,
 		"mainWeakness": 5,
-		"resist": [1, 1, 1, 0, 3],
+		"resist": [1, 1, 1, 3, 0],
 		"defences": [
 			{
 				"name": "腕",
-				"defence": [3, 2, 2, 2, 0, 4]
+				"defence": [3, 2, 2, 2, 4, 0]
 			},
 			{
 				"name": "その他",
-				"defence": [2, 2, 2, 2, 0, 3]
+				"defence": [2, 2, 2, 2, 3, 0]
 			}
 		],
 		"parts": [
