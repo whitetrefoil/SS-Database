@@ -417,15 +417,11 @@
 		"drops": [
 			{
 				"difficult": 1,
-				"item": 261
+				"item": 163
 			},
 			{
 				"difficult": 4,
-				"item": 262
-			},
-			{
-				"difficult": 8,
-				"item": 263
+				"item": 164
 			}
 		]
 	}
