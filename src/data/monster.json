@@ -558,5 +558,50 @@
 				"item": 79
 			}
 		]
+	},
+	{
+		"id": 29,
+		"name": "ワルキューレ",
+		"isBoss": true,
+		"mainWeakness": 5,
+		"resist": [1, 1, 0, 1, 2],
+		"defences": [
+			{
+				"name": "翼・頭・上半身",
+				"defence": [3, 2, 2, 0, 2, 4]
+			},
+			{
+				"name": "下半身",
+				"defence": [2, 2, 2, 0, 2, 3]
+			}
+		],
+		"parts": [
+			{
+				"name": "頭",
+				"hp": "C"
+			},
+			{
+				"name": "左羽",
+				"hp": "B"
+			},
+			{
+				"name": "右羽",
+				"hp": "B"
+			},
+			{
+				"name": "上半身",
+				"hp": "C"
+			}
+		],
+		"drops": [
+			{
+				"difficult": 2,
+				"item": 166
+			},
+			{
+				"difficult": 5,
+				"item": 167
+			}
+		]
 	}
 ]
