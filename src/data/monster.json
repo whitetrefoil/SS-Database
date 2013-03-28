@@ -643,5 +643,66 @@
 				"item": 65
 			}
 		]
+	},
+	{
+		"id": 31,
+		"name": "クラーケン",
+		"isBoss": true,
+		"mainWeakness": 3,
+		"resist": [1, 0, 2, 1, 1],
+		"defences": [
+			{
+				"name": "頭・足",
+				"defence": [2, 2, 0, 3, 2, 2]
+			},
+			{
+				"name": "舳先・マスト",
+				"defence": [3, 2, 0, 3, 2, 2]
+			},
+			{
+				"name": "腹",
+				"defence": [3, 2, 0, 4, 2, 2]
+			},
+			{
+				"name": "触手",
+				"defence": [3, 2, 0, 4, 2, 2]
+			}
+		],
+		"parts": [
+			{
+				"name": "８本の触手",
+				"hp": "E"
+			},
+			{
+				"name": "颜",
+				"hp": "B"
+			},
+			{
+				"name": "舳先",
+				"hp": "D"
+			},
+			{
+				"name": "マスト",
+				"hp": "D"
+			},
+			{
+				"name": "腹",
+				"hp": "B"
+			}
+		],
+		"drops": [
+			{
+				"difficult": 3,
+				"item": 127
+			},
+			{
+				"difficult": 4,
+				"item": 128
+			},
+			{
+				"difficult": 8,
+				"item": 129
+			}
+		]
 	}
 ]
