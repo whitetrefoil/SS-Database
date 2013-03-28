@@ -603,5 +603,45 @@
 				"item": 167
 			}
 		]
+	},
+	{
+		"id": 30,
+		"name": "サイコロポス",
+		"isBoss": true,
+		"resist": [1, 1, 1, 1, 1],
+		"defences": [
+			{
+				"name": "頭と槍の目",
+				"defence": [4, 2, 2, 2, 2, 2]
+			},
+			{
+				"name": "その他",
+				"defence": [1, 2, 2, 2, 2, 2]
+			}
+		],
+		"parts": [
+			{
+				"name": "颜の目",
+				"hp": "E"
+			},
+			{
+				"name": "槍の目",
+				"hp": "B"
+			}
+		],
+		"drops": [
+			{
+				"difficult": 3,
+				"item": 63
+			},
+			{
+				"difficult": 4,
+				"item": 64
+			},
+			{
+				"difficult": 8,
+				"item": 65
+			}
+		]
 	}
 ]
