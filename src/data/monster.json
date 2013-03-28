@@ -838,5 +838,46 @@
 				"item": 144
 			}
 		]
+	},
+	{
+		"id": 35,
+		"name": "ジャックフロスト",
+		"isBoss": true,
+		"mainWeakness": 3,
+		"resist": [1, 0, 3, 1, 1],
+		"defences": [
+			{
+				"name": "腕",
+				"defence": [3, 2, 0, 4, 2, 2]
+			},
+			{
+				"name": "その他",
+				"defence": [2, 2, 0, 3, 2, 2]
+			}
+		],
+		"parts": [
+			{
+				"name": "頭",
+				"hp": "E"
+			},
+			{
+				"name": "左腕",
+				"hp": "B"
+			},
+			{
+				"name": "右腕",
+				"hp": "B"
+			}
+		],
+		"drops": [
+			{
+				"difficult": 2,
+				"item": 78
+			},
+			{
+				"difficult": 5,
+				"item": 79
+			}
+		]
 	}
 ]
