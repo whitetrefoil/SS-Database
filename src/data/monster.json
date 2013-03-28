@@ -704,5 +704,49 @@
 				"item": 129
 			}
 		]
+	},
+	{
+		"id": 32,
+		"name": "グリフォン",
+		"isBoss": true,
+		"resist": [1, 1, 1, 1, 1],
+		"defences": [
+			{
+				"name": "頭・翼",
+				"defence": [3, 2, 2, 2, 2, 2]
+			},
+			{
+				"name": "その他",
+				"defence": [2, 2, 2, 2, 2, 2]
+			}
+		],
+		"parts": [
+			{
+				"name": "颜",
+				"hp": "D"
+			},
+			{
+				"name": "左翼",
+				"hp": "C"
+			},
+			{
+				"name": "右翼",
+				"hp": "C"
+			}
+		],
+		"drops": [
+			{
+				"difficult": 4,
+				"item": 66
+			},
+			{
+				"difficult": 4,
+				"item": 67
+			},
+			{
+				"difficult": 9,
+				"item": 68
+			}
+		]
 	}
 ]
