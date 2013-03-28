@@ -748,5 +748,50 @@
 				"item": 68
 			}
 		]
+	},
+	{
+		"id": 33,
+		"name": "ケルベロス",
+		"isBoss": true,
+		"mainWeakness": 5,
+		"resist": [1, 1, 0, 1, 2],
+		"defences": [
+			{
+				"name": "頭・犬",
+				"defence": [3, 2, 2, 0, 2, 4]
+			},
+			{
+				"name": "その他",
+				"defence": [2, 2, 2, 0, 2, 3]
+			}
+		],
+		"parts": [
+			{
+				"name": "頭",
+				"hp": "D"
+			},
+			{
+				"name": "左犬",
+				"hp": "D"
+			},
+			{
+				"name": "右犬",
+				"hp": "D"
+			}
+		],
+		"drops": [
+			{
+				"difficult": 5,
+				"item": 124
+			},
+			{
+				"difficult": 5,
+				"item": 125
+			},
+			{
+				"difficult": 8,
+				"item": 126
+			}
+		]
 	}
 ]
