@@ -793,5 +793,50 @@
 				"item": 126
 			}
 		]
+	},
+	{
+		"id": 34,
+		"name": "ワーウルフ",
+		"isBoss": true,
+		"mainWeakness": 2,
+		"resist": [0, 2, 1, 1, 1],
+		"defences": [
+			{
+				"name": "頭",
+				"defence": [3, 0, 3, 2, 2, 2]
+			},
+			{
+				"name": "右腕",
+				"defence": [3, 0, 4, 2, 2, 2]
+			},
+			{
+				"name": "その他",
+				"defence": [2, 0, 3, 2, 2, 2]
+			}
+		],
+		"parts": [
+			{
+				"name": "頭",
+				"hp": "D"
+			},
+			{
+				"name": "右腕",
+				"hp": "B"
+			}
+		],
+		"drops": [
+			{
+				"difficult": 3,
+				"item": 142
+			},
+			{
+				"difficult": 3,
+				"item": 143
+			},
+			{
+				"difficult": 8,
+				"item": 144
+			}
+		]
 	}
 ]
