@@ -932,5 +932,49 @@
 				"item": 137
 			}
 		]
+	},
+	{
+		"id": 37,
+		"name": "モルガン・ル・フェ",
+		"isBoss": true,
+		"resist": [1, 1, 1, 1, 1],
+		"defences": [
+			{
+				"name": "頭・腹",
+				"defence": [3, 2, 2, 2, 2, 2]
+			},
+			{
+				"name": "足",
+				"defence": [2, 2, 2, 2, 2, 2]
+			}
+		],
+		"parts": [
+			{
+				"name": "頭の蛇",
+				"hp": "B"
+			},
+			{
+				"name": "頭",
+				"hp": "B"
+			},
+			{
+				"name": "腹",
+				"hp": "B"
+			}
+		],
+		"drops": [
+			{
+				"difficult": 6,
+				"item": 329
+			},
+			{
+				"difficult": 6,
+				"item": 330
+			},
+			{
+				"difficult": 8,
+				"item": 331
+			}
+		]
 	}
 ]
