@@ -1062,5 +1062,54 @@
 				"item": 135
 			}
 		]
+	},
+	{
+		"id": 40,
+		"name": "ヒュドラ",
+		"isBoss": true,
+		"mainWeakness": 1,
+		"resist": [2, 1, 1, 0, 1],
+		"defences": [
+			{
+				"name": "頭・足",
+				"defence": [2, 3, 2, 2, 0, 2]
+			},
+			{
+				"name": "腹",
+				"defence": [3, 4, 2, 2, 0, 2]
+			},
+			{
+				"name": "触手",
+				"defence": [3, 4, 2, 2, 0, 2]
+			}
+		],
+		"parts": [
+			{
+				"name": "腹",
+				"hp": "B"
+			},
+			{
+				"name": "顏",
+				"hp": "B"
+			},
+			{
+				"name": "８本の触手",
+				"hp": "E"
+			}
+		],
+		"drops": [
+			{
+				"difficult": 7,
+				"item": 130
+			},
+			{
+				"difficult": 7,
+				"item": 131
+			},
+			{
+				"difficult": 8,
+				"item": 132
+			}
+		]
 	}
 ]
