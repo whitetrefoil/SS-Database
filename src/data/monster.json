@@ -976,5 +976,50 @@
 				"item": 331
 			}
 		]
+	},
+	{
+		"id": 38,
+		"name": "ミノタウロス",
+		"isBoss": true,
+		"mainWeakness": 3,
+		"resist": [1, 1, 1, 1, 1],
+		"defences": [
+			{
+				"name": "斧",
+				"defence": [2, 0, 0, 4, 0, 0]
+			},
+			{
+				"name": "頭",
+				"defence": [3, 2, 2, 2, 2, 2]
+			},
+			{
+				"name": "その他",
+				"defence": [2, 2, 2, 2, 2, 2]
+			}
+		],
+		"parts": [
+			{
+				"name": "斧",
+				"hp": "C"
+			},
+			{
+				"name": "頭",
+				"hp": "D"
+			}
+		],
+		"drops": [
+			{
+				"difficult": 6,
+				"item": 270
+			},
+			{
+				"difficult": 6,
+				"item": 271
+			},
+			{
+				"difficult": 8,
+				"item": 272
+			}
+		]
 	}
 ]
