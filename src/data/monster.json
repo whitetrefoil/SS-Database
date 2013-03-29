@@ -1152,5 +1152,46 @@
 				"item": 17
 			}
 		]
+	},
+	{
+		"id": 42,
+		"name": "ペガサス",
+		"isBoss": true,
+		"mainWeakness": 3,
+		"resist": [1, 0, 2, 1, 1],
+		"defences": [
+			{
+				"name": "尻尾",
+				"defence": [2, 2, 0, 4, 2, 2]
+			},
+			{
+				"name": "その他",
+				"defence": [2, 2, 0, 3, 2, 2]
+			}
+		],
+		"parts": [
+			{
+				"name": "頭",
+				"hp": "A"
+			},
+			{
+				"name": "尻尾",
+				"hp": "A"
+			}
+		],
+		"drops": [
+			{
+				"difficult": 9,
+				"item": 215
+			},
+			{
+				"difficult": 9,
+				"item": 216
+			},
+			{
+				"difficult": 9,
+				"item": 217
+			}
+		]
 	}
 ]
