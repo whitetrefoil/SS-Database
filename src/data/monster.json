@@ -1193,5 +1193,50 @@
 				"item": 217
 			}
 		]
+	},
+	{
+		"id": 43,
+		"name": "リヴァイアサン",
+		"isBoss": true,
+		"mainWeakness": 3,
+		"resist": [0, 0, 0, 0, 0],
+		"defences": [
+			{
+				"name": "顏・下あご",
+				"defence": [3, 2, 0, 4, 2, 2]
+			},
+			{
+				"name": "その他",
+				"defence": [2, 2, 0, 3, 2, 2]
+			},
+			{
+				"name": "コア",
+				"defence": [2, 2, 2, 2, 2, 2]
+			}
+		],
+		"parts": [
+			{
+				"name": "口",
+				"hp": "A"
+			},
+			{
+				"name": "下あご先端",
+				"hp": "B"
+			}
+		],
+		"drops": [
+			{
+				"difficult": 10,
+				"item": 350
+			},
+			{
+				"difficult": 10,
+				"item": 351
+			},
+			{
+				"difficult": 10,
+				"item": 352
+			}
+		]
 	}
 ]
