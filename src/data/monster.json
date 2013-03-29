@@ -1111,5 +1111,46 @@
 				"item": 132
 			}
 		]
+	},
+	{
+		"id": 41,
+		"name": "セイレーン",
+		"isBoss": true,
+		"mainWeakness": 3,
+		"resist": [1, 0, 2, 1, 1],
+		"defences": [
+			{
+				"name": "頭と杖の口",
+				"defence": [3, 2, 0, 4, 2, 2]
+			},
+			{
+				"name": "その他",
+				"defence": [2, 2, 0, 3, 2, 2]
+			}
+		],
+		"parts": [
+			{
+				"name": "杖の口",
+				"hp": "B"
+			},
+			{
+				"name": "頭の口",
+				"hp": "E"
+			}
+		],
+		"drops": [
+			{
+				"difficult": 7,
+				"item": 15
+			},
+			{
+				"difficult": 7,
+				"item": 16
+			},
+			{
+				"difficult": 9,
+				"item": 17
+			}
+		]
 	}
 ]
