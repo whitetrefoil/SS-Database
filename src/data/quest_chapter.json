@@ -1,127 +1,127 @@
 [
 	{
-		"id": 1,
-		"series": 1,
+		"id": 0,
+		"series": 0,
 		"name": "魔法使いの試験"
 	},
 	{
-		"id": 2,
-		"series": 1,
+		"id": 1,
+		"series": 0,
 		"name": "あれから数年後"
 	},
 	{
-		"id": 3,
-		"series": 1,
+		"id": 2,
+		"series": 0,
 		"name": "過去の因縁"
 	},
 	{
-		"id": 4,
-		"series": 1,
+		"id": 3,
+		"series": 0,
 		"name": "ひととしての残り時間"
 	},
 	{
-		"id": 5,
-		"series": 1,
+		"id": 4,
+		"series": 0,
 		"name": "終わりの始まり"
 	},
 	{
-		"id": 6,
-		"series": 1,
+		"id": 5,
+		"series": 0,
 		"name": "そして記憶が残った"
+	},
+	{
+		"id": 6,
+		"series": 0,
+		"name": "マーリンに挑む"
 	},
 	{
 		"id": 7,
 		"series": 1,
-		"name": "マーリンに挑む"
-	},
-	{
-		"id": 8,
-		"series": 2,
 		"name": "悪徳魔法使い"
 	},
 	{
-		"id": 9,
-		"series": 2,
+		"id": 8,
+		"series": 1,
 		"name": "魔物の子供"
 	},
 	{
-		"id": 10,
-		"series": 2,
+		"id": 9,
+		"series": 1,
 		"name": "狼男の苦悩"
+	},
+	{
+		"id": 10,
+		"series": 1,
+		"name": "復讐の騎士"
 	},
 	{
 		"id": 11,
 		"series": 2,
-		"name": "復讐の騎士"
-	},
-	{
-		"id": 12,
-		"series": 3,
 		"name": "Ⅰ.純潔の時代"
 	},
 	{
-		"id": 13,
-		"series": 3,
+		"id": 12,
+		"series": 2,
 		"name": "Ⅱ.欲望の時代"
 	},
 	{
-		"id": 14,
-		"series": 3,
+		"id": 13,
+		"series": 2,
 		"name": "Ⅲ.代償の時代"
 	},
 	{
-		"id": 15,
-		"series": 3,
+		"id": 14,
+		"series": 2,
 		"name": "Ⅳ.贖罪の時代"
 	},
 	{
-		"id": 16,
-		"series": 3,
+		"id": 15,
+		"series": 2,
 		"name": "Ⅴ.嫉妬の時代"
 	},
 	{
-		"id": 17,
-		"series": 3,
+		"id": 16,
+		"series": 2,
 		"name": "Ⅵ.傲慢の時代"
 	},
 	{
-		"id": 18,
-		"series": 3,
+		"id": 17,
+		"series": 2,
 		"name": "Ⅶ.断罪の時代"
 	},
 	{
-		"id": 19,
-		"series": 3,
+		"id": 18,
+		"series": 2,
 		"name": "Ⅷ.悔恨の時代"
 	},
 	{
-		"id": 20,
-		"series": 3,
+		"id": 19,
+		"series": 2,
 		"name": "Ⅸ.懺悔の時代"
+	},
+	{
+		"id": 20,
+		"series": 2,
+		"name": "Ⅹ.回帰の時代"
 	},
 	{
 		"id": 21,
 		"series": 3,
-		"name": "Ⅹ.回帰の時代"
-	},
-	{
-		"id": 22,
-		"series": 4,
 		"name": "真朱の刻"
 	},
 	{
-		"id": 23,
-		"series": 4,
+		"id": 22,
+		"series": 3,
 		"name": "群青の刻"
 	},
 	{
-		"id": 24,
-		"series": 4,
+		"id": 23,
+		"series": 3,
 		"name": "黄檗の刻"
 	},
 	{
-		"id": 25,
-		"series": 4,
+		"id": 24,
+		"series": 3,
 		"name": "翠緑の刻"
 	}
 ]

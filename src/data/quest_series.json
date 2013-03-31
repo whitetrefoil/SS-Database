@@ -1,21 +1,21 @@
 [
 	{
-		"id": 1,
+		"id": 0,
 		"name": "メイン",
 		"multiplay": false
 	},
 	{
-		"id": 2,
+		"id": 1,
 		"name": "仲間",
 		"multiplay": false
 	},
 	{
-		"id": 3,
+		"id": 2,
 		"name": "フリー",
 		"multiplay": true
 	},
 	{
-		"id": 4,
+		"id": 3,
 		"name": "追加",
 		"multiplay": true
 	}
