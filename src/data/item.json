@@ -1,79 +1,31 @@
 [
 	{
-		"id": 0,
-		"name": "小悪魔のフォーク",
-		"itemSeriesId": 0,
-		"effect": 25,
-		"time": 25,
-		"count": 4
-	},
-	{
-		"id": 1,
-		"name": "悪魔のフォーク",
-		"itemSeriesId": 0,
-		"effect": 35,
-		"time": 30,
-		"count": 7
-	},
-	{
-		"id": 2,
-		"name": "魔王のフォーク",
-		"itemSeriesId": 0,
-		"effect": 45,
-		"time": 35,
-		"count": 10
-	},
-	{
-		"id": 3,
-		"name": "剣士の氷刃",
-		"itemSeriesId": 1,
-		"effect": 25,
-		"time": 25,
-		"count": 4
-	},
-	{
-		"id": 4,
-		"name": "剣豪の氷刃",
-		"itemSeriesId": 1,
-		"effect": 35,
-		"time": 30,
-		"count": 7
-	},
-	{
-		"id": 5,
-		"name": "剣聖の氷刃",
-		"itemSeriesId": 1,
-		"effect": 45,
-		"time": 35,
-		"count": 10
-	},
-	{
 		"id": 6,
-		"name": "雷斧の破片",
+		"name": "小悪魔のフォーク",
 		"itemSeriesId": 2,
-		"effect": 35,
-		"time": 30,
+		"effect": 25,
+		"time": 25,
 		"count": 4
 	},
 	{
 		"id": 7,
-		"name": "落雷斧の破片",
+		"name": "悪魔のフォーク",
 		"itemSeriesId": 2,
-		"effect": 60,
-		"time": 35,
+		"effect": 35,
+		"time": 30,
 		"count": 7
 	},
 	{
 		"id": 8,
-		"name": "雷神斧の破片",
+		"name": "魔王のフォーク",
 		"itemSeriesId": 2,
-		"effect": 90,
-		"time": 40,
+		"effect": 45,
+		"time": 35,
 		"count": 10
 	},
 	{
 		"id": 9,
-		"name": "剣士の苗木",
+		"name": "剣士の氷刃",
 		"itemSeriesId": 3,
 		"effect": 25,
 		"time": 25,
@@ -81,7 +33,7 @@
 	},
 	{
 		"id": 10,
-		"name": "剣豪の苗木",
+		"name": "剣豪の氷刃",
 		"itemSeriesId": 3,
 		"effect": 35,
 		"time": 30,
@@ -89,7 +41,7 @@
 	},
 	{
 		"id": 11,
-		"name": "剣聖の苗木",
+		"name": "剣聖の氷刃",
 		"itemSeriesId": 3,
 		"effect": 45,
 		"time": 35,
@@ -97,7 +49,7 @@
 	},
 	{
 		"id": 12,
-		"name": "石斧の破片",
+		"name": "雷斧の破片",
 		"itemSeriesId": 4,
 		"effect": 35,
 		"time": 30,
@@ -105,7 +57,7 @@
 	},
 	{
 		"id": 13,
-		"name": "岩斧の破片",
+		"name": "落雷斧の破片",
 		"itemSeriesId": 4,
 		"effect": 60,
 		"time": 35,
@@ -113,7 +65,7 @@
 	},
 	{
 		"id": 14,
-		"name": "岩石斧の破片",
+		"name": "雷神斧の破片",
 		"itemSeriesId": 4,
 		"effect": 90,
 		"time": 40,
@@ -121,79 +73,79 @@
 	},
 	{
 		"id": 15,
-		"name": "悲哀歌人の唇（小）",
+		"name": "剣士の苗木",
 		"itemSeriesId": 5,
+		"effect": 25,
+		"time": 25,
+		"count": 4
+	},
+	{
+		"id": 16,
+		"name": "剣豪の苗木",
+		"itemSeriesId": 5,
+		"effect": 35,
+		"time": 30,
+		"count": 7
+	},
+	{
+		"id": 17,
+		"name": "剣聖の苗木",
+		"itemSeriesId": 5,
+		"effect": 45,
+		"time": 35,
+		"count": 10
+	},
+	{
+		"id": 18,
+		"name": "石斧の破片",
+		"itemSeriesId": 6,
+		"effect": 35,
+		"time": 30,
+		"count": 4
+	},
+	{
+		"id": 19,
+		"name": "岩斧の破片",
+		"itemSeriesId": 6,
+		"effect": 60,
+		"time": 35,
+		"count": 7
+	},
+	{
+		"id": 20,
+		"name": "岩石斧の破片",
+		"itemSeriesId": 6,
+		"effect": 90,
+		"time": 40,
+		"count": 10
+	},
+	{
+		"id": 21,
+		"name": "悲哀歌人の唇（小）",
+		"itemSeriesId": 7,
 		"effect": 50,
 		"time": 20,
 		"count": 4
 	},
 	{
-		"id": 16,
+		"id": 22,
 		"name": "悲哀歌人の唇（中）",
-		"itemSeriesId": 5,
+		"itemSeriesId": 7,
 		"effect": 75,
 		"time": 25,
 		"count": 7
 	},
 	{
-		"id": 17,
+		"id": 23,
 		"name": "悲哀歌人の唇（大）",
-		"itemSeriesId": 5,
+		"itemSeriesId": 7,
 		"effect": 100,
 		"time": 30,
 		"count": 10
 	},
 	{
-		"id": 18,
-		"name": "巨人族の腕",
-		"itemSeriesId": 6,
-		"effect": 55,
-		"time": 35,
-		"count": 4
-	},
-	{
-		"id": 19,
-		"name": "巨人王の腕",
-		"itemSeriesId": 6,
-		"effect": 75,
-		"time": 40,
-		"count": 7
-	},
-	{
-		"id": 20,
-		"name": "巨神の腕",
-		"itemSeriesId": 6,
-		"effect": 100,
-		"time": 45,
-		"count": 10
-	},
-	{
-		"id": 21,
-		"name": "巨炎族の腕",
-		"itemSeriesId": 7,
-		"effect": 55,
-		"time": 35,
-		"count": 4
-	},
-	{
-		"id": 22,
-		"name": "巨炎王の腕",
-		"itemSeriesId": 7,
-		"effect": 75,
-		"time": 40,
-		"count": 7
-	},
-	{
-		"id": 23,
-		"name": "巨炎神の腕",
-		"itemSeriesId": 7,
-		"effect": 100,
-		"time": 45,
-		"count": 10
-	},
-	{
 		"id": 24,
-		"name": "巨氷族の腕",
+		"name": "巨人族の腕",
 		"itemSeriesId": 8,
 		"effect": 55,
 		"time": 35,
@@ -201,7 +153,7 @@
 	},
 	{
 		"id": 25,
-		"name": "巨氷王の腕",
+		"name": "巨人王の腕",
 		"itemSeriesId": 8,
 		"effect": 75,
 		"time": 40,
@@ -209,7 +161,7 @@
 	},
 	{
 		"id": 26,
-		"name": "巨氷神の腕",
+		"name": "巨神の腕",
 		"itemSeriesId": 8,
 		"effect": 100,
 		"time": 45,
@@ -217,7 +169,7 @@
 	},
 	{
 		"id": 27,
-		"name": "巨雷族の腕",
+		"name": "巨炎族の腕",
 		"itemSeriesId": 9,
 		"effect": 55,
 		"time": 35,
@@ -225,7 +177,7 @@
 	},
 	{
 		"id": 28,
-		"name": "巨雷王の腕",
+		"name": "巨炎王の腕",
 		"itemSeriesId": 9,
 		"effect": 75,
 		"time": 40,
@@ -233,7 +185,7 @@
 	},
 	{
 		"id": 29,
-		"name": "巨雷神の腕",
+		"name": "巨炎神の腕",
 		"itemSeriesId": 9,
 		"effect": 100,
 		"time": 45,
@@ -241,7 +193,7 @@
 	},
 	{
 		"id": 30,
-		"name": "巨緑族の腕",
+		"name": "巨氷族の腕",
 		"itemSeriesId": 10,
 		"effect": 55,
 		"time": 35,
@@ -249,7 +201,7 @@
 	},
 	{
 		"id": 31,
-		"name": "巨緑王の腕",
+		"name": "巨氷王の腕",
 		"itemSeriesId": 10,
 		"effect": 75,
 		"time": 40,
@@ -257,7 +209,7 @@
 	},
 	{
 		"id": 32,
-		"name": "巨緑神の腕",
+		"name": "巨氷神の腕",
 		"itemSeriesId": 10,
 		"effect": 100,
 		"time": 45,
@@ -265,7 +217,7 @@
 	},
 	{
 		"id": 33,
-		"name": "巨石族の腕",
+		"name": "巨雷族の腕",
 		"itemSeriesId": 11,
 		"effect": 55,
 		"time": 35,
@@ -273,7 +225,7 @@
 	},
 	{
 		"id": 34,
-		"name": "巨石王の腕",
+		"name": "巨雷王の腕",
 		"itemSeriesId": 11,
 		"effect": 75,
 		"time": 40,
@@ -281,7 +233,7 @@
 	},
 	{
 		"id": 35,
-		"name": "巨石神の腕",
+		"name": "巨雷神の腕",
 		"itemSeriesId": 11,
 		"effect": 100,
 		"time": 45,
@@ -289,79 +241,79 @@
 	},
 	{
 		"id": 36,
-		"name": "腐臭花の葉（小）",
+		"name": "巨緑族の腕",
 		"itemSeriesId": 12,
+		"effect": 55,
+		"time": 35,
+		"count": 4
+	},
+	{
+		"id": 37,
+		"name": "巨緑王の腕",
+		"itemSeriesId": 12,
+		"effect": 75,
+		"time": 40,
+		"count": 7
+	},
+	{
+		"id": 38,
+		"name": "巨緑神の腕",
+		"itemSeriesId": 12,
+		"effect": 100,
+		"time": 45,
+		"count": 10
+	},
+	{
+		"id": 39,
+		"name": "巨石族の腕",
+		"itemSeriesId": 13,
+		"effect": 55,
+		"time": 35,
+		"count": 4
+	},
+	{
+		"id": 40,
+		"name": "巨石王の腕",
+		"itemSeriesId": 13,
+		"effect": 75,
+		"time": 40,
+		"count": 7
+	},
+	{
+		"id": 41,
+		"name": "巨石神の腕",
+		"itemSeriesId": 13,
+		"effect": 100,
+		"time": 45,
+		"count": 10
+	},
+	{
+		"id": 42,
+		"name": "腐臭花の葉（小）",
+		"itemSeriesId": 14,
 		"effect": 50,
 		"time": 30,
 		"count": 5
 	},
 	{
-		"id": 37,
+		"id": 43,
 		"name": "腐臭花の葉（中）",
-		"itemSeriesId": 12,
+		"itemSeriesId": 14,
 		"effect": 70,
 		"time": 35,
 		"count": 8
 	},
 	{
-		"id": 38,
+		"id": 44,
 		"name": "腐臭花の葉（大）",
-		"itemSeriesId": 12,
+		"itemSeriesId": 14,
 		"effect": 110,
 		"time": 40,
 		"count": 11
 	},
 	{
-		"id": 39,
-		"name": "炎竜の牙（小）",
-		"itemSeriesId": 13,
-		"effect": 50,
-		"time": 30,
-		"count": 4
-	},
-	{
-		"id": 40,
-		"name": "炎竜の牙（中）",
-		"itemSeriesId": 13,
-		"effect": 70,
-		"time": 35,
-		"count": 7
-	},
-	{
-		"id": 41,
-		"name": "炎竜の牙（大）",
-		"itemSeriesId": 13,
-		"effect": 110,
-		"time": 40,
-		"count": 10
-	},
-	{
-		"id": 42,
-		"name": "氷狼の牙（小）",
-		"itemSeriesId": 14,
-		"effect": 50,
-		"time": 30,
-		"count": 4
-	},
-	{
-		"id": 43,
-		"name": "氷狼の牙（中）",
-		"itemSeriesId": 14,
-		"effect": 70,
-		"time": 35,
-		"count": 7
-	},
-	{
-		"id": 44,
-		"name": "氷狼の牙（大）",
-		"itemSeriesId": 14,
-		"effect": 110,
-		"time": 40,
-		"count": 10
-	},
-	{
 		"id": 45,
-		"name": "雷鳥の口ばし（小）",
+		"name": "炎竜の牙（小）",
 		"itemSeriesId": 15,
 		"effect": 50,
 		"time": 30,
@@ -369,242 +321,242 @@
 	},
 	{
 		"id": 46,
-		"name": "雷鳥の口ばし（中）",
+		"name": "炎竜の牙（中）",
 		"itemSeriesId": 15,
+		"effect": 70,
+		"time": 35,
+		"count": 7
+	},
+	{
+		"id": 47,
+		"name": "炎竜の牙（大）",
+		"itemSeriesId": 15,
+		"effect": 110,
+		"time": 40,
+		"count": 10
+	},
+	{
+		"id": 48,
+		"name": "氷狼の牙（小）",
+		"itemSeriesId": 16,
+		"effect": 50,
+		"time": 30,
+		"count": 4
+	},
+	{
+		"id": 49,
+		"name": "氷狼の牙（中）",
+		"itemSeriesId": 16,
+		"effect": 70,
+		"time": 35,
+		"count": 7
+	},
+	{
+		"id": 50,
+		"name": "氷狼の牙（大）",
+		"itemSeriesId": 16,
+		"effect": 110,
+		"time": 40,
+		"count": 10
+	},
+	{
+		"id": 51,
+		"name": "雷鳥の口ばし（小）",
+		"itemSeriesId": 17,
+		"effect": 50,
+		"time": 30,
+		"count": 4
+	},
+	{
+		"id": 52,
+		"name": "雷鳥の口ばし（中）",
+		"itemSeriesId": 17,
 		"effect": 70,
 		"time": 30,
 		"count": 7
 	},
 	{
-		"id": 47,
+		"id": 53,
 		"name": "雷鳥の口ばし（大）",
-		"itemSeriesId": 15,
+		"itemSeriesId": 17,
 		"effect": 110,
 		"time": 30,
 		"count": 10
 	},
 	{
-		"id": 48,
-		"name": "墓場の土塊（小）",
-		"itemSeriesId": 16,
-		"effect": 110,
-		"count": 8
-	},
-	{
-		"id": 49,
-		"name": "墓場の土塊（中）",
-		"itemSeriesId": 16,
-		"effect": 160,
-		"count": 11
-	},
-	{
-		"id": 50,
-		"name": "墓場の土塊（大）",
-		"itemSeriesId": 16,
-		"effect": 210,
-		"count": 14
-	},
-	{
-		"id": 51,
-		"name": "火葬の土塊（小）",
-		"itemSeriesId": 17,
-		"effect": 110,
-		"count": 8
-	},
-	{
-		"id": 52,
-		"name": "火葬の土塊（中）",
-		"itemSeriesId": 17,
-		"effect": 160,
-		"count": 11
-	},
-	{
-		"id": 53,
-		"name": "火葬の土塊（大）",
-		"itemSeriesId": 17,
-		"effect": 210,
-		"count": 14
-	},
-	{
 		"id": 54,
-		"name": "雷葬の土塊（小）",
+		"name": "墓場の土塊（小）",
 		"itemSeriesId": 18,
 		"effect": 110,
 		"count": 8
 	},
 	{
 		"id": 55,
-		"name": "雷葬の土塊（中）",
+		"name": "墓場の土塊（中）",
 		"itemSeriesId": 18,
 		"effect": 160,
 		"count": 11
 	},
 	{
 		"id": 56,
-		"name": "雷葬の土塊（大）",
+		"name": "墓場の土塊（大）",
 		"itemSeriesId": 18,
 		"effect": 210,
 		"count": 14
 	},
 	{
 		"id": 57,
-		"name": "氷墓の土塊（小）",
+		"name": "火葬の土塊（小）",
 		"itemSeriesId": 19,
 		"effect": 110,
 		"count": 8
 	},
 	{
 		"id": 58,
-		"name": "氷墓の土塊（中）",
+		"name": "火葬の土塊（中）",
 		"itemSeriesId": 19,
 		"effect": 160,
 		"count": 11
 	},
 	{
 		"id": 59,
-		"name": "氷墓の土塊（大）",
+		"name": "火葬の土塊（大）",
 		"itemSeriesId": 19,
 		"effect": 210,
 		"count": 14
 	},
 	{
 		"id": 60,
-		"name": "樹墓の土塊（小）",
+		"name": "雷葬の土塊（小）",
 		"itemSeriesId": 20,
 		"effect": 110,
 		"count": 8
 	},
 	{
 		"id": 61,
-		"name": "樹墓の土塊（中）",
+		"name": "雷葬の土塊（中）",
 		"itemSeriesId": 20,
 		"effect": 160,
 		"count": 11
 	},
 	{
 		"id": 62,
-		"name": "樹墓の土塊（大）",
+		"name": "雷葬の土塊（大）",
 		"itemSeriesId": 20,
 		"effect": 210,
 		"count": 14
 	},
 	{
 		"id": 63,
-		"name": "鍛冶屋の目玉（小）",
+		"name": "氷墓の土塊（小）",
 		"itemSeriesId": 21,
-		"effect": 130,
-		"count": 7
+		"effect": 110,
+		"count": 8
 	},
 	{
 		"id": 64,
-		"name": "鍛冶屋の目玉（中）",
+		"name": "氷墓の土塊（中）",
 		"itemSeriesId": 21,
-		"effect": 190,
-		"count": 10
+		"effect": 160,
+		"count": 11
 	},
 	{
 		"id": 65,
-		"name": "鍛冶屋の目玉（大）",
+		"name": "氷墓の土塊（大）",
 		"itemSeriesId": 21,
-		"effect": 240,
-		"count": 13
+		"effect": 210,
+		"count": 14
 	},
 	{
 		"id": 66,
-		"name": "金貴族の宝石（小）",
+		"name": "樹墓の土塊（小）",
 		"itemSeriesId": 22,
+		"effect": 110,
+		"count": 8
+	},
+	{
+		"id": 67,
+		"name": "樹墓の土塊（中）",
+		"itemSeriesId": 22,
+		"effect": 160,
+		"count": 11
+	},
+	{
+		"id": 68,
+		"name": "樹墓の土塊（大）",
+		"itemSeriesId": 22,
+		"effect": 210,
+		"count": 14
+	},
+	{
+		"id": 69,
+		"name": "鍛冶屋の目玉（小）",
+		"itemSeriesId": 23,
 		"effect": 130,
 		"count": 7
 	},
 	{
-		"id": 67,
-		"name": "金貴族の宝石（中）",
-		"itemSeriesId": 22,
+		"id": 70,
+		"name": "鍛冶屋の目玉（中）",
+		"itemSeriesId": 23,
 		"effect": 190,
 		"count": 10
 	},
 	{
-		"id": 68,
-		"name": "金貴族の宝石（大）",
-		"itemSeriesId": 22,
+		"id": 71,
+		"name": "鍛冶屋の目玉（大）",
+		"itemSeriesId": 23,
 		"effect": 240,
 		"count": 13
 	},
 	{
-		"id": 69,
+		"id": 72,
+		"name": "金貴族の宝石（小）",
+		"itemSeriesId": 24,
+		"effect": 130,
+		"count": 7
+	},
+	{
+		"id": 73,
+		"name": "金貴族の宝石（中）",
+		"itemSeriesId": 24,
+		"effect": 190,
+		"count": 10
+	},
+	{
+		"id": 74,
+		"name": "金貴族の宝石（大）",
+		"itemSeriesId": 24,
+		"effect": 240,
+		"count": 13
+	},
+	{
+		"id": 75,
 		"name": "岩虫の甲殼（小）",
-		"itemSeriesId": 23,
+		"itemSeriesId": 25,
 		"effect": 100,
 		"time": 15,
 		"count": 2
 	},
 	{
-		"id": 70,
+		"id": 76,
 		"name": "岩虫の甲殼（中）",
-		"itemSeriesId": 23,
+		"itemSeriesId": 25,
 		"effect": 150,
 		"time": 15,
 		"count": 3
 	},
 	{
-		"id": 71,
+		"id": 77,
 		"name": "岩虫の甲殼（大）",
-		"itemSeriesId": 23,
+		"itemSeriesId": 25,
 		"effect": 200,
 		"time": 15,
 		"count": 4
 	},
 	{
-		"id": 72,
-		"name": "没兵士の炎岩（小）",
-		"itemSeriesId": 24,
-		"effect": 150,
-		"time": 15,
-		"count": 1
-	},
-	{
-		"id": 73,
-		"name": "没兵士の炎岩（中）",
-		"itemSeriesId": 24,
-		"effect": 200,
-		"time": 15,
-		"count": 2
-	},
-	{
-		"id": 74,
-		"name": "没兵士の炎岩（大）",
-		"itemSeriesId": 24,
-		"effect": 250,
-		"time": 15,
-		"count": 3
-	},
-	{
-		"id": 75,
-		"name": "騎士団の氷石（小）",
-		"itemSeriesId": 25,
-		"effect": 150,
-		"time": 15,
-		"count": 1
-	},
-	{
-		"id": 76,
-		"name": "騎士団の氷石（中）",
-		"itemSeriesId": 25,
-		"effect": 200,
-		"time": 15,
-		"count": 2
-	},
-	{
-		"id": 77,
-		"name": "騎士団の氷石（大）",
-		"itemSeriesId": 25,
-		"effect": 250,
-		"time": 15,
-		"count": 3
-	},
-	{
 		"id": 78,
-		"name": "美少年の魔石（小）",
+		"name": "没兵士の炎岩（小）",
 		"itemSeriesId": 26,
 		"effect": 150,
 		"time": 15,
@@ -612,7 +564,7 @@
 	},
 	{
 		"id": 79,
-		"name": "美少年の魔石（中）",
+		"name": "没兵士の炎岩（中）",
 		"itemSeriesId": 26,
 		"effect": 200,
 		"time": 15,
@@ -620,7 +572,7 @@
 	},
 	{
 		"id": 80,
-		"name": "美少年の魔石（大）",
+		"name": "没兵士の炎岩（大）",
 		"itemSeriesId": 26,
 		"effect": 250,
 		"time": 15,
@@ -628,1144 +580,1144 @@
 	},
 	{
 		"id": 81,
-		"name": "野犬の喉笛",
+		"name": "騎士団の氷石（小）",
 		"itemSeriesId": 27,
-		"effect": 30,
-		"count": 3
+		"effect": 150,
+		"time": 15,
+		"count": 1
 	},
 	{
 		"id": 82,
-		"name": "狂犬の喉笛",
+		"name": "騎士団の氷石（中）",
 		"itemSeriesId": 27,
-		"effect": 50,
-		"count": 6
+		"effect": 200,
+		"time": 15,
+		"count": 2
 	},
 	{
 		"id": 83,
-		"name": "魔犬の喉笛",
+		"name": "騎士団の氷石（大）",
 		"itemSeriesId": 27,
-		"effect": 80,
-		"count": 9
-	},
-	{
-		"id": 84,
-		"name": "熱鴉の喉笛",
-		"itemSeriesId": 28,
-		"effect": 30,
+		"effect": 250,
+		"time": 15,
 		"count": 3
 	},
 	{
-		"id": 85,
-		"name": "火鴉の喉笛",
+		"id": 84,
+		"name": "美少年の魔石（小）",
 		"itemSeriesId": 28,
-		"effect": 50,
-		"count": 6
+		"effect": 150,
+		"time": 15,
+		"count": 1
+	},
+	{
+		"id": 85,
+		"name": "美少年の魔石（中）",
+		"itemSeriesId": 28,
+		"effect": 200,
+		"time": 15,
+		"count": 2
 	},
 	{
 		"id": 86,
-		"name": "炎鴉の喉笛",
+		"name": "美少年の魔石（大）",
 		"itemSeriesId": 28,
-		"effect": 80,
-		"count": 9
+		"effect": 250,
+		"time": 15,
+		"count": 3
 	},
 	{
 		"id": 87,
-		"name": "冷狼の喉笛",
+		"name": "野犬の喉笛",
 		"itemSeriesId": 29,
 		"effect": 30,
 		"count": 3
 	},
 	{
 		"id": 88,
-		"name": "雪狼の喉笛",
+		"name": "狂犬の喉笛",
 		"itemSeriesId": 29,
 		"effect": 50,
 		"count": 6
 	},
 	{
 		"id": 89,
-		"name": "氷狼の喉笛",
+		"name": "魔犬の喉笛",
 		"itemSeriesId": 29,
 		"effect": 80,
 		"count": 9
 	},
 	{
 		"id": 90,
-		"name": "閃光獣の喉笛",
+		"name": "熱鴉の喉笛",
 		"itemSeriesId": 30,
 		"effect": 30,
 		"count": 3
 	},
 	{
 		"id": 91,
-		"name": "雷獣の喉笛",
+		"name": "火鴉の喉笛",
 		"itemSeriesId": 30,
 		"effect": 50,
 		"count": 6
 	},
 	{
 		"id": 92,
-		"name": "雷光獣の喉笛",
+		"name": "炎鴉の喉笛",
 		"itemSeriesId": 30,
 		"effect": 80,
 		"count": 9
 	},
 	{
 		"id": 93,
-		"name": "貴女の花飾り（小）",
+		"name": "冷狼の喉笛",
 		"itemSeriesId": 31,
+		"effect": 30,
+		"count": 3
+	},
+	{
+		"id": 94,
+		"name": "雪狼の喉笛",
+		"itemSeriesId": 31,
+		"effect": 50,
+		"count": 6
+	},
+	{
+		"id": 95,
+		"name": "氷狼の喉笛",
+		"itemSeriesId": 31,
+		"effect": 80,
+		"count": 9
+	},
+	{
+		"id": 96,
+		"name": "閃光獣の喉笛",
+		"itemSeriesId": 32,
+		"effect": 30,
+		"count": 3
+	},
+	{
+		"id": 97,
+		"name": "雷獣の喉笛",
+		"itemSeriesId": 32,
+		"effect": 50,
+		"count": 6
+	},
+	{
+		"id": 98,
+		"name": "雷光獣の喉笛",
+		"itemSeriesId": 32,
+		"effect": 80,
+		"count": 9
+	},
+	{
+		"id": 99,
+		"name": "貴女の花飾り（小）",
+		"itemSeriesId": 33,
 		"effect": 20,
 		"count": 4
 	},
 	{
-		"id": 94,
+		"id": 100,
 		"name": "貴女の花飾り（中）",
-		"itemSeriesId": 31,
+		"itemSeriesId": 33,
 		"effect": 40,
 		"count": 7
 	},
 	{
-		"id": 95,
+		"id": 101,
 		"name": "貴女の花飾り（大）",
-		"itemSeriesId": 31,
+		"itemSeriesId": 33,
 		"effect": 70,
 		"count": 10
 	},
 	{
-		"id": 96,
-		"name": "火樹の根",
-		"itemSeriesId": 32,
-		"effect": 40,
-		"count": 15
-	},
-	{
-		"id": 97,
-		"name": "炎樹の根",
-		"itemSeriesId": 32,
-		"effect": 70,
-		"count": 18
-	},
-	{
-		"id": 98,
-		"name": "豪炎樹の根",
-		"itemSeriesId": 32,
-		"effect": 100,
-		"count": 21
-	},
-	{
-		"id": 99,
-		"name": "火樹の根（三叉）",
-		"itemSeriesId": 33,
-		"effect": 30,
-		"count": 5
-	},
-	{
-		"id": 100,
-		"name": "炎樹の根（三叉）",
-		"itemSeriesId": 33,
-		"effect": 40,
-		"count": 8
-	},
-	{
-		"id": 101,
-		"name": "豪炎樹の根（三叉）",
-		"itemSeriesId": 33,
-		"effect": 50,
-		"count": 11
-	},
-	{
 		"id": 102,
-		"name": "雪樹の根",
+		"name": "火樹の根",
 		"itemSeriesId": 34,
 		"effect": 40,
 		"count": 15
 	},
 	{
 		"id": 103,
-		"name": "氷樹の根",
+		"name": "炎樹の根",
 		"itemSeriesId": 34,
 		"effect": 70,
 		"count": 18
 	},
 	{
 		"id": 104,
-		"name": "氷獄樹の根",
+		"name": "豪炎樹の根",
 		"itemSeriesId": 34,
 		"effect": 100,
 		"count": 21
 	},
 	{
 		"id": 105,
-		"name": "雪樹の根（三叉）",
+		"name": "火樹の根（三叉）",
 		"itemSeriesId": 35,
 		"effect": 30,
 		"count": 5
 	},
 	{
 		"id": 106,
-		"name": "氷樹の根（三叉）",
+		"name": "炎樹の根（三叉）",
 		"itemSeriesId": 35,
 		"effect": 40,
 		"count": 8
 	},
 	{
 		"id": 107,
-		"name": "氷獄樹の根（三叉）",
+		"name": "豪炎樹の根（三叉）",
 		"itemSeriesId": 35,
 		"effect": 50,
 		"count": 11
 	},
 	{
 		"id": 108,
-		"name": "雷樹の根",
+		"name": "雪樹の根",
 		"itemSeriesId": 36,
 		"effect": 40,
 		"count": 15
 	},
 	{
 		"id": 109,
-		"name": "落雷樹の根",
+		"name": "氷樹の根",
 		"itemSeriesId": 36,
 		"effect": 70,
 		"count": 18
 	},
 	{
 		"id": 110,
-		"name": "雷神樹の根",
+		"name": "氷獄樹の根",
 		"itemSeriesId": 36,
 		"effect": 100,
 		"count": 21
 	},
 	{
 		"id": 111,
-		"name": "雷樹の根（三叉）",
+		"name": "雪樹の根（三叉）",
 		"itemSeriesId": 37,
 		"effect": 30,
 		"count": 5
 	},
 	{
 		"id": 112,
-		"name": "落雷樹の根（三叉）",
+		"name": "氷樹の根（三叉）",
 		"itemSeriesId": 37,
 		"effect": 40,
 		"count": 8
 	},
 	{
 		"id": 113,
-		"name": "雷神樹の根（三叉）",
+		"name": "氷獄樹の根（三叉）",
 		"itemSeriesId": 37,
 		"effect": 50,
 		"count": 11
 	},
 	{
 		"id": 114,
-		"name": "幼木の根",
+		"name": "雷樹の根",
 		"itemSeriesId": 38,
 		"effect": 40,
 		"count": 15
 	},
 	{
 		"id": 115,
-		"name": "巨木の根",
+		"name": "落雷樹の根",
 		"itemSeriesId": 38,
 		"effect": 70,
 		"count": 18
 	},
 	{
 		"id": 116,
-		"name": "神木の根",
+		"name": "雷神樹の根",
 		"itemSeriesId": 38,
 		"effect": 100,
 		"count": 21
 	},
 	{
 		"id": 117,
-		"name": "幼木の根（三叉）",
+		"name": "雷樹の根（三叉）",
 		"itemSeriesId": 39,
 		"effect": 30,
 		"count": 5
 	},
 	{
 		"id": 118,
-		"name": "巨木の根（三叉）",
+		"name": "落雷樹の根（三叉）",
 		"itemSeriesId": 39,
 		"effect": 40,
 		"count": 8
 	},
 	{
 		"id": 119,
-		"name": "神木の根（三叉）",
+		"name": "雷神樹の根（三叉）",
 		"itemSeriesId": 39,
 		"effect": 50,
 		"count": 11
 	},
 	{
 		"id": 120,
-		"name": "混沌竜の尾",
+		"name": "幼木の根",
 		"itemSeriesId": 40,
-		"effect": 120,
-		"count": 17
+		"effect": 40,
+		"count": 15
 	},
 	{
 		"id": 121,
-		"name": "天竜の尾",
+		"name": "巨木の根",
 		"itemSeriesId": 40,
+		"effect": 70,
+		"count": 18
+	},
+	{
+		"id": 122,
+		"name": "神木の根",
+		"itemSeriesId": 40,
+		"effect": 100,
+		"count": 21
+	},
+	{
+		"id": 123,
+		"name": "幼木の根（三叉）",
+		"itemSeriesId": 41,
+		"effect": 30,
+		"count": 5
+	},
+	{
+		"id": 124,
+		"name": "巨木の根（三叉）",
+		"itemSeriesId": 41,
+		"effect": 40,
+		"count": 8
+	},
+	{
+		"id": 125,
+		"name": "神木の根（三叉）",
+		"itemSeriesId": 41,
+		"effect": 50,
+		"count": 11
+	},
+	{
+		"id": 126,
+		"name": "混沌竜の尾",
+		"itemSeriesId": 42,
 		"effect": 120,
 		"count": 17
 	},
 	{
-		"id": 122,
-		"name": "混沌竜の尾（三叉）",
-		"itemSeriesId": 41,
-		"effect": 50,
-		"count": 12
-	},
-	{
-		"id": 123,
-		"name": "天竜の尾（三叉）",
-		"itemSeriesId": 41,
-		"effect": 50,
-		"count": 12
-	},
-	{
-		"id": 124,
-		"name": "衛兵の槍片（小）",
-		"itemSeriesId": 42,
-		"effect": 70,
-		"count": 9
-	},
-	{
-		"id": 125,
-		"name": "衛兵の槍片（中）",
-		"itemSeriesId": 42,
-		"effect": 100,
-		"count": 12
-	},
-	{
-		"id": 126,
-		"name": "衛兵の槍片（大）",
-		"itemSeriesId": 42,
-		"effect": 140,
-		"count": 15
-	},
-	{
 		"id": 127,
-		"name": "商船長の触手（小）",
-		"itemSeriesId": 43,
-		"effect": 50,
-		"count": 3
+		"name": "天竜の尾",
+		"itemSeriesId": 42,
+		"effect": 120,
+		"count": 17
 	},
 	{
 		"id": 128,
-		"name": "商船長の触手（中）",
+		"name": "混沌竜の尾（三叉）",
 		"itemSeriesId": 43,
-		"effect": 60,
-		"count": 6
+		"effect": 50,
+		"count": 12
 	},
 	{
 		"id": 129,
-		"name": "商船長の触手（大）",
+		"name": "天竜の尾（三叉）",
 		"itemSeriesId": 43,
+		"effect": 50,
+		"count": 12
+	},
+	{
+		"id": 130,
+		"name": "衛兵の槍片（小）",
+		"itemSeriesId": 44,
 		"effect": 70,
 		"count": 9
 	},
 	{
-		"id": 130,
-		"name": "暴剣士の触手（小）",
+		"id": 131,
+		"name": "衛兵の槍片（中）",
 		"itemSeriesId": 44,
+		"effect": 100,
+		"count": 12
+	},
+	{
+		"id": 132,
+		"name": "衛兵の槍片（大）",
+		"itemSeriesId": 44,
+		"effect": 140,
+		"count": 15
+	},
+	{
+		"id": 133,
+		"name": "商船長の触手（小）",
+		"itemSeriesId": 45,
 		"effect": 50,
 		"count": 3
 	},
 	{
-		"id": 131,
-		"name": "暴剣士の触手（中）",
-		"itemSeriesId": 44,
+		"id": 134,
+		"name": "商船長の触手（中）",
+		"itemSeriesId": 45,
 		"effect": 60,
 		"count": 6
 	},
 	{
-		"id": 132,
-		"name": "暴剣士の触手（大）",
-		"itemSeriesId": 44,
-		"effect": 70,
-		"count": 9
-	},
-	{
-		"id": 133,
-		"name": "焔老婆の尾羽（小）",
-		"itemSeriesId": 45,
-		"effect": 70,
-		"count": 9
-	},
-	{
-		"id": 134,
-		"name": "焔老婆の尾羽（中）",
-		"itemSeriesId": 45,
-		"effect": 100,
-		"count": 12
-	},
-	{
 		"id": 135,
-		"name": "焔老婆の尾羽（大）",
+		"name": "商船長の触手（大）",
 		"itemSeriesId": 45,
-		"effect": 140,
-		"count": 15
+		"effect": 70,
+		"count": 9
 	},
 	{
 		"id": 136,
-		"name": "鎧騎士の槍片（小）",
+		"name": "暴剣士の触手（小）",
+		"itemSeriesId": 46,
+		"effect": 50,
+		"count": 3
+	},
+	{
+		"id": 137,
+		"name": "暴剣士の触手（中）",
+		"itemSeriesId": 46,
+		"effect": 60,
+		"count": 6
+	},
+	{
+		"id": 138,
+		"name": "暴剣士の触手（大）",
 		"itemSeriesId": 46,
 		"effect": 70,
 		"count": 9
 	},
 	{
-		"id": 137,
-		"name": "鎧騎士の槍片（中）",
-		"itemSeriesId": 46,
+		"id": 139,
+		"name": "焔老婆の尾羽（小）",
+		"itemSeriesId": 47,
+		"effect": 70,
+		"count": 9
+	},
+	{
+		"id": 140,
+		"name": "焔老婆の尾羽（中）",
+		"itemSeriesId": 47,
 		"effect": 100,
 		"count": 12
 	},
 	{
-		"id": 138,
-		"name": "鎧騎士の槍片（大）",
-		"itemSeriesId": 46,
+		"id": 141,
+		"name": "焔老婆の尾羽（大）",
+		"itemSeriesId": 47,
 		"effect": 140,
 		"count": 15
 	},
 	{
-		"id": 139,
+		"id": 142,
+		"name": "鎧騎士の槍片（小）",
+		"itemSeriesId": 48,
+		"effect": 70,
+		"count": 9
+	},
+	{
+		"id": 143,
+		"name": "鎧騎士の槍片（中）",
+		"itemSeriesId": 48,
+		"effect": 100,
+		"count": 12
+	},
+	{
+		"id": 144,
+		"name": "鎧騎士の槍片（大）",
+		"itemSeriesId": 48,
+		"effect": 140,
+		"count": 15
+	},
+	{
+		"id": 145,
 		"name": "呪い札（小）",
-		"itemSeriesId": 47,
+		"itemSeriesId": 49,
 		"effect": 20,
 		"count": 8
 	},
 	{
-		"id": 140,
+		"id": 146,
 		"name": "呪い札（中）",
-		"itemSeriesId": 47,
+		"itemSeriesId": 49,
 		"effect": 35,
 		"count": 11
 	},
 	{
-		"id": 141,
+		"id": 147,
 		"name": "呪い札（大）",
-		"itemSeriesId": 47,
+		"itemSeriesId": 49,
 		"effect": 50,
 		"count": 14
 	},
 	{
-		"id": 142,
+		"id": 148,
 		"name": "奇兵の犬歯（小）",
-		"itemSeriesId": 48,
+		"itemSeriesId": 50,
 		"effect": 25,
 		"count": 5
 	},
 	{
-		"id": 143,
+		"id": 149,
 		"name": "奇兵の犬歯（中）",
-		"itemSeriesId": 48,
+		"itemSeriesId": 50,
 		"effect": 30,
 		"count": 7
 	},
 	{
-		"id": 144,
+		"id": 150,
 		"name": "奇兵の犬歯（大）",
-		"itemSeriesId": 48,
+		"itemSeriesId": 50,
 		"effect": 35,
 		"count": 9
 	},
 	{
-		"id": 145,
-		"name": "鉄風車の翼片（小）",
-		"itemSeriesId": 49,
-		"effect": 15,
-		"count": 10
-	},
-	{
-		"id": 146,
-		"name": "鉄風車の翼片（中）",
-		"itemSeriesId": 49,
-		"effect": 25,
-		"count": 13
-	},
-	{
-		"id": 147,
-		"name": "鉄風車の翼片（大）",
-		"itemSeriesId": 49,
-		"effect": 35,
-		"count": 16
-	},
-	{
-		"id": 148,
-		"name": "炎悪魔の矢尻（小）",
-		"itemSeriesId": 50,
-		"effect": 15,
-		"count": 10
-	},
-	{
-		"id": 149,
-		"name": "炎悪魔の矢尻（中）",
-		"itemSeriesId": 50,
-		"effect": 25,
-		"count": 13
-	},
-	{
-		"id": 150,
-		"name": "炎悪魔の矢尻（大）",
-		"itemSeriesId": 50,
-		"effect": 35,
-		"count": 16
-	},
-	{
 		"id": 151,
-		"name": "氷バラのトゲ（小）",
+		"name": "鉄風車の翼片（小）",
 		"itemSeriesId": 51,
 		"effect": 15,
 		"count": 10
 	},
 	{
 		"id": 152,
-		"name": "氷バラのトゲ（中）",
+		"name": "鉄風車の翼片（中）",
 		"itemSeriesId": 51,
 		"effect": 25,
 		"count": 13
 	},
 	{
 		"id": 153,
-		"name": "氷バラのトゲ（大）",
+		"name": "鉄風車の翼片（大）",
 		"itemSeriesId": 51,
 		"effect": 35,
 		"count": 16
 	},
 	{
 		"id": 154,
-		"name": "雷石の矢尻（小）",
+		"name": "炎悪魔の矢尻（小）",
 		"itemSeriesId": 52,
 		"effect": 15,
 		"count": 10
 	},
 	{
 		"id": 155,
-		"name": "雷石の矢尻（中）",
+		"name": "炎悪魔の矢尻（中）",
 		"itemSeriesId": 52,
 		"effect": 25,
 		"count": 13
 	},
 	{
 		"id": 156,
-		"name": "雷石の矢尻（大）",
+		"name": "炎悪魔の矢尻（大）",
 		"itemSeriesId": 52,
 		"effect": 35,
 		"count": 16
 	},
 	{
 		"id": 157,
-		"name": "猛毒華のトゲ（小）",
+		"name": "氷バラのトゲ（小）",
 		"itemSeriesId": 53,
 		"effect": 15,
 		"count": 10
 	},
 	{
 		"id": 158,
-		"name": "猛毒華のトゲ（中）",
+		"name": "氷バラのトゲ（中）",
 		"itemSeriesId": 53,
 		"effect": 25,
 		"count": 13
 	},
 	{
 		"id": 159,
-		"name": "猛毒華のトゲ（大）",
+		"name": "氷バラのトゲ（大）",
 		"itemSeriesId": 53,
 		"effect": 35,
 		"count": 16
 	},
 	{
 		"id": 160,
-		"name": "石の矢尻（小）",
+		"name": "雷石の矢尻（小）",
 		"itemSeriesId": 54,
 		"effect": 15,
 		"count": 10
 	},
 	{
 		"id": 161,
-		"name": "石の矢尻（中）",
+		"name": "雷石の矢尻（中）",
 		"itemSeriesId": 54,
 		"effect": 25,
 		"count": 13
 	},
 	{
 		"id": 162,
-		"name": "石の矢尻（大）",
+		"name": "雷石の矢尻（大）",
 		"itemSeriesId": 54,
 		"effect": 35,
 		"count": 16
 	},
 	{
 		"id": 163,
-		"name": "怠弓師の矢尻（小）",
+		"name": "猛毒華のトゲ（小）",
 		"itemSeriesId": 55,
-		"effect": 10,
+		"effect": 15,
 		"count": 10
 	},
 	{
 		"id": 164,
-		"name": "怠弓師の矢尻（中）",
+		"name": "猛毒華のトゲ（中）",
 		"itemSeriesId": 55,
-		"effect": 16,
+		"effect": 25,
 		"count": 13
 	},
 	{
 		"id": 165,
-		"name": "怠弓師の矢尻（大）",
+		"name": "猛毒華のトゲ（大）",
 		"itemSeriesId": 55,
-		"effect": 24,
+		"effect": 35,
 		"count": 16
 	},
 	{
 		"id": 166,
-		"name": "女戦士の剣片（小）",
+		"name": "石の矢尻（小）",
 		"itemSeriesId": 56,
+		"effect": 15,
+		"count": 10
+	},
+	{
+		"id": 167,
+		"name": "石の矢尻（中）",
+		"itemSeriesId": 56,
+		"effect": 25,
+		"count": 13
+	},
+	{
+		"id": 168,
+		"name": "石の矢尻（大）",
+		"itemSeriesId": 56,
+		"effect": 35,
+		"count": 16
+	},
+	{
+		"id": 169,
+		"name": "怠弓師の矢尻（小）",
+		"itemSeriesId": 57,
+		"effect": 10,
+		"count": 10
+	},
+	{
+		"id": 170,
+		"name": "怠弓師の矢尻（中）",
+		"itemSeriesId": 57,
+		"effect": 16,
+		"count": 13
+	},
+	{
+		"id": 171,
+		"name": "怠弓師の矢尻（大）",
+		"itemSeriesId": 57,
+		"effect": 24,
+		"count": 16
+	},
+	{
+		"id": 172,
+		"name": "女戦士の剣片（小）",
+		"itemSeriesId": 58,
 		"effect": 25,
 		"count": 7
 	},
 	{
-		"id": 167,
+		"id": 173,
 		"name": "女戦士の剣片（中）",
-		"itemSeriesId": 56,
+		"itemSeriesId": 58,
 		"effect": 35,
 		"count": 10
 	},
 	{
-		"id": 168,
+		"id": 174,
 		"name": "女戦士の剣片（大）",
-		"itemSeriesId": 56,
+		"itemSeriesId": 58,
 		"effect": 45,
 		"count": 13
 	},
 	{
-		"id": 169,
-		"name": "炎竜の卵（小）",
-		"itemSeriesId": 57,
-		"effect": 100,
-		"count": 11
-	},
-	{
-		"id": 170,
-		"name": "炎竜の卵（中）",
-		"itemSeriesId": 57,
-		"effect": 180,
-		"count": 11
-	},
-	{
-		"id": 171,
-		"name": "炎竜の卵（大）",
-		"itemSeriesId": 57,
-		"effect": 260,
-		"count": 11
-	},
-	{
-		"id": 172,
-		"name": "氷竜の卵（小）",
-		"itemSeriesId": 58,
-		"effect": 100,
-		"count": 11
-	},
-	{
-		"id": 173,
-		"name": "氷竜の卵（中）",
-		"itemSeriesId": 58,
-		"effect": 180,
-		"count": 11
-	},
-	{
-		"id": 174,
-		"name": "氷竜の卵（大）",
-		"itemSeriesId": 58,
-		"effect": 260,
-		"count": 11
-	},
-	{
 		"id": 175,
-		"name": "雷竜の卵（小）",
+		"name": "炎竜の卵（小）",
 		"itemSeriesId": 59,
 		"effect": 100,
 		"count": 11
 	},
 	{
 		"id": 176,
-		"name": "雷竜の卵（中）",
+		"name": "炎竜の卵（中）",
 		"itemSeriesId": 59,
 		"effect": 180,
 		"count": 11
 	},
 	{
 		"id": 177,
-		"name": "雷竜の卵（大）",
+		"name": "炎竜の卵（大）",
 		"itemSeriesId": 59,
 		"effect": 260,
 		"count": 11
 	},
 	{
 		"id": 178,
-		"name": "樹竜の卵（小）",
+		"name": "氷竜の卵（小）",
 		"itemSeriesId": 60,
 		"effect": 100,
 		"count": 11
 	},
 	{
 		"id": 179,
-		"name": "樹竜の卵（中）",
+		"name": "氷竜の卵（中）",
 		"itemSeriesId": 60,
 		"effect": 180,
 		"count": 11
 	},
 	{
 		"id": 180,
-		"name": "樹竜の卵（大）",
+		"name": "氷竜の卵（大）",
 		"itemSeriesId": 60,
 		"effect": 260,
 		"count": 11
 	},
 	{
 		"id": 181,
-		"name": "岩竜の卵（小）",
+		"name": "雷竜の卵（小）",
 		"itemSeriesId": 61,
 		"effect": 100,
 		"count": 11
 	},
 	{
 		"id": 182,
-		"name": "岩竜の卵（中）",
+		"name": "雷竜の卵（中）",
 		"itemSeriesId": 61,
 		"effect": 180,
 		"count": 11
 	},
 	{
 		"id": 183,
-		"name": "岩竜の卵（大）",
+		"name": "雷竜の卵（大）",
 		"itemSeriesId": 61,
 		"effect": 260,
 		"count": 11
 	},
 	{
 		"id": 184,
-		"name": "鉄針竜の卵（小）",
+		"name": "樹竜の卵（小）",
 		"itemSeriesId": 62,
 		"effect": 100,
 		"count": 11
 	},
 	{
 		"id": 185,
-		"name": "鉄針竜の卵（中）",
+		"name": "樹竜の卵（中）",
 		"itemSeriesId": 62,
 		"effect": 180,
 		"count": 11
 	},
 	{
 		"id": 186,
-		"name": "鉄針竜の卵（大）",
+		"name": "樹竜の卵（大）",
 		"itemSeriesId": 62,
 		"effect": 260,
 		"count": 11
 	},
 	{
 		"id": 187,
-		"name": "泥魔人の内臟",
+		"name": "岩竜の卵（小）",
 		"itemSeriesId": 63,
+		"effect": 100,
+		"count": 11
+	},
+	{
+		"id": 188,
+		"name": "岩竜の卵（中）",
+		"itemSeriesId": 63,
+		"effect": 180,
+		"count": 11
+	},
+	{
+		"id": 189,
+		"name": "岩竜の卵（大）",
+		"itemSeriesId": 63,
+		"effect": 260,
+		"count": 11
+	},
+	{
+		"id": 190,
+		"name": "鉄針竜の卵（小）",
+		"itemSeriesId": 64,
+		"effect": 100,
+		"count": 11
+	},
+	{
+		"id": 191,
+		"name": "鉄針竜の卵（中）",
+		"itemSeriesId": 64,
+		"effect": 180,
+		"count": 11
+	},
+	{
+		"id": 192,
+		"name": "鉄針竜の卵（大）",
+		"itemSeriesId": 64,
+		"effect": 260,
+		"count": 11
+	},
+	{
+		"id": 193,
+		"name": "泥魔人の内臟",
+		"itemSeriesId": 65,
 		"effect": 200,
 		"time": 20,
 		"count": 1
 	},
 	{
-		"id": 188,
-		"name": "石魔人の内臓",
-		"itemSeriesId": 63,
-		"effect": 300,
-		"time": 30,
-		"count": 1
-	},
-	{
-		"id": 189,
-		"name": "石魔人の心臟",
-		"itemSeriesId": 63,
-		"effect": 380,
-		"time": 40,
-		"count": 3
-	},
-	{
-		"id": 190,
-		"name": "炎魔人の内臓",
-		"itemSeriesId": 64,
-		"effect": 300,
-		"time": 30,
-		"count": 1
-	},
-	{
-		"id": 191,
-		"name": "炎魔人の心臟",
-		"itemSeriesId": 64,
-		"effect": 380,
-		"time": 40,
-		"count": 3
-	},
-	{
-		"id": 192,
-		"name": "氷魔人の内臓",
-		"itemSeriesId": 65,
-		"effect": 300,
-		"time": 30,
-		"count": 1
-	},
-	{
-		"id": 193,
-		"name": "氷魔人の心臟",
-		"itemSeriesId": 65,
-		"effect": 380,
-		"time": 40,
-		"count": 3
-	},
-	{
 		"id": 194,
-		"name": "雷魔人の内臓",
-		"itemSeriesId": 66,
+		"name": "石魔人の内臓",
+		"itemSeriesId": 65,
 		"effect": 300,
 		"time": 30,
 		"count": 1
 	},
 	{
 		"id": 195,
-		"name": "雷魔人の心臟",
-		"itemSeriesId": 66,
+		"name": "石魔人の心臟",
+		"itemSeriesId": 65,
 		"effect": 380,
 		"time": 40,
 		"count": 3
 	},
 	{
 		"id": 196,
-		"name": "樹魔人の内臓",
-		"itemSeriesId": 67,
+		"name": "炎魔人の内臓",
+		"itemSeriesId": 66,
 		"effect": 300,
 		"time": 30,
 		"count": 1
 	},
 	{
 		"id": 197,
-		"name": "樹魔人の心臟",
-		"itemSeriesId": 67,
+		"name": "炎魔人の心臟",
+		"itemSeriesId": 66,
 		"effect": 380,
 		"time": 40,
 		"count": 3
 	},
 	{
 		"id": 198,
-		"name": "炎魔人の血（小）",
-		"itemSeriesId": 68,
-		"effect": 100,
+		"name": "氷魔人の内臓",
+		"itemSeriesId": 67,
+		"effect": 300,
 		"time": 30,
 		"count": 1
 	},
 	{
 		"id": 199,
-		"name": "炎魔人の血（大）",
-		"itemSeriesId": 68,
-		"effect": 150,
+		"name": "氷魔人の心臟",
+		"itemSeriesId": 67,
+		"effect": 380,
 		"time": 40,
 		"count": 3
 	},
 	{
 		"id": 200,
-		"name": "氷魔人の血（小）",
-		"itemSeriesId": 69,
-		"effect": 100,
+		"name": "雷魔人の内臓",
+		"itemSeriesId": 68,
+		"effect": 300,
 		"time": 30,
 		"count": 1
 	},
 	{
 		"id": 201,
-		"name": "氷魔人の血（大）",
-		"itemSeriesId": 69,
-		"effect": 150,
+		"name": "雷魔人の心臟",
+		"itemSeriesId": 68,
+		"effect": 380,
 		"time": 40,
 		"count": 3
 	},
 	{
 		"id": 202,
-		"name": "雷魔人の血（小）",
-		"itemSeriesId": 70,
-		"effect": 100,
+		"name": "樹魔人の内臓",
+		"itemSeriesId": 69,
+		"effect": 300,
 		"time": 30,
 		"count": 1
 	},
 	{
 		"id": 203,
-		"name": "雷魔人の血（大）",
-		"itemSeriesId": 70,
-		"effect": 150,
+		"name": "樹魔人の心臟",
+		"itemSeriesId": 69,
+		"effect": 380,
 		"time": 40,
 		"count": 3
 	},
 	{
 		"id": 204,
-		"name": "樹魔人の血（小）",
-		"itemSeriesId": 71,
+		"name": "炎魔人の血（小）",
+		"itemSeriesId": 70,
 		"effect": 100,
 		"time": 30,
 		"count": 1
 	},
 	{
 		"id": 205,
-		"name": "樹魔人の血（大）",
-		"itemSeriesId": 71,
+		"name": "炎魔人の血（大）",
+		"itemSeriesId": 70,
 		"effect": 150,
 		"time": 40,
 		"count": 3
 	},
 	{
 		"id": 206,
-		"name": "火炎鳥の羽（小）",
-		"itemSeriesId": 72,
-		"effect": 25,
-		"count": 5
+		"name": "氷魔人の血（小）",
+		"itemSeriesId": 71,
+		"effect": 100,
+		"time": 30,
+		"count": 1
 	},
 	{
 		"id": 207,
-		"name": "火炎鳥の羽（中）",
-		"itemSeriesId": 72,
-		"effect": 50,
-		"count": 8
+		"name": "氷魔人の血（大）",
+		"itemSeriesId": 71,
+		"effect": 150,
+		"time": 40,
+		"count": 3
 	},
 	{
 		"id": 208,
-		"name": "火炎鳥の羽（大）",
+		"name": "雷魔人の血（小）",
 		"itemSeriesId": 72,
-		"effect": 80,
-		"count": 11
+		"effect": 100,
+		"time": 30,
+		"count": 1
 	},
 	{
 		"id": 209,
-		"name": "吹雪鳥の羽（小）",
-		"itemSeriesId": 73,
-		"effect": 25,
-		"count": 5
+		"name": "雷魔人の血（大）",
+		"itemSeriesId": 72,
+		"effect": 150,
+		"time": 40,
+		"count": 3
 	},
 	{
 		"id": 210,
-		"name": "吹雪鳥の羽（中）",
+		"name": "樹魔人の血（小）",
 		"itemSeriesId": 73,
-		"effect": 50,
-		"count": 8
+		"effect": 100,
+		"time": 30,
+		"count": 1
 	},
 	{
 		"id": 211,
-		"name": "吹雪鳥の羽（大）",
+		"name": "樹魔人の血（大）",
 		"itemSeriesId": 73,
-		"effect": 80,
-		"count": 11
+		"effect": 150,
+		"time": 40,
+		"count": 3
 	},
 	{
 		"id": 212,
-		"name": "雷光鳥の羽（小）",
+		"name": "火炎鳥の羽（小）",
 		"itemSeriesId": 74,
 		"effect": 25,
 		"count": 5
 	},
 	{
 		"id": 213,
-		"name": "雷光鳥の羽（中）",
+		"name": "火炎鳥の羽（中）",
 		"itemSeriesId": 74,
 		"effect": 50,
 		"count": 8
 	},
 	{
 		"id": 214,
-		"name": "雷光鳥の羽（大）",
+		"name": "火炎鳥の羽（大）",
 		"itemSeriesId": 74,
 		"effect": 80,
 		"count": 11
 	},
 	{
 		"id": 215,
-		"name": "奸臣の角（小）",
+		"name": "吹雪鳥の羽（小）",
 		"itemSeriesId": 75,
+		"effect": 25,
+		"count": 5
+	},
+	{
+		"id": 216,
+		"name": "吹雪鳥の羽（中）",
+		"itemSeriesId": 75,
+		"effect": 50,
+		"count": 8
+	},
+	{
+		"id": 217,
+		"name": "吹雪鳥の羽（大）",
+		"itemSeriesId": 75,
+		"effect": 80,
+		"count": 11
+	},
+	{
+		"id": 218,
+		"name": "雷光鳥の羽（小）",
+		"itemSeriesId": 76,
+		"effect": 25,
+		"count": 5
+	},
+	{
+		"id": 219,
+		"name": "雷光鳥の羽（中）",
+		"itemSeriesId": 76,
+		"effect": 50,
+		"count": 8
+	},
+	{
+		"id": 220,
+		"name": "雷光鳥の羽（大）",
+		"itemSeriesId": 76,
+		"effect": 80,
+		"count": 11
+	},
+	{
+		"id": 221,
+		"name": "奸臣の角（小）",
+		"itemSeriesId": 77,
 		"effect": 40,
 		"count": 3
 	},
 	{
-		"id": 216,
+		"id": 222,
 		"name": "奸臣の角（中）",
-		"itemSeriesId": 75,
+		"itemSeriesId": 77,
 		"effect": 70,
 		"count": 5
 	},
 	{
-		"id": 217,
+		"id": 223,
 		"name": "奸臣の角（大）",
-		"itemSeriesId": 75,
+		"itemSeriesId": 77,
 		"effect": 100,
 		"count": 7
 	},
 	{
-		"id": 218,
-		"name": "炎の球根（小）",
-		"itemSeriesId": 76,
-		"effect": 200,
-		"time": 90,
-		"count": 2
-	},
-	{
-		"id": 219,
-		"name": "炎の球根（大）",
-		"itemSeriesId": 76,
-		"effect": 300,
-		"time": 90,
-		"count": 3
-	},
-	{
-		"id": 220,
-		"name": "氷の球根（小）",
-		"itemSeriesId": 77,
-		"effect": 200,
-		"time": 90,
-		"count": 2
-	},
-	{
-		"id": 221,
-		"name": "氷の球根（大）",
-		"itemSeriesId": 77,
-		"effect": 300,
-		"time": 90,
-		"count": 3
-	},
-	{
-		"id": 222,
-		"name": "雷の球根（小）",
-		"itemSeriesId": 78,
-		"effect": 200,
-		"time": 90,
-		"count": 2
-	},
-	{
-		"id": 223,
-		"name": "雷の球根（大）",
-		"itemSeriesId": 78,
-		"effect": 300,
-		"time": 90,
-		"count": 3
-	},
-	{
 		"id": 224,
-		"name": "炎の綿毛（小）",
-		"itemSeriesId": 79,
-		"effect": 50,
-		"count": 10
+		"name": "炎の球根（小）",
+		"itemSeriesId": 78,
+		"effect": 200,
+		"time": 90,
+		"count": 2
 	},
 	{
 		"id": 225,
-		"name": "炎の綿毛（中）",
-		"itemSeriesId": 79,
-		"effect": 60,
-		"count": 13
+		"name": "炎の球根（大）",
+		"itemSeriesId": 78,
+		"effect": 300,
+		"time": 90,
+		"count": 3
 	},
 	{
 		"id": 226,
-		"name": "炎の綿毛（大）",
+		"name": "氷の球根（小）",
 		"itemSeriesId": 79,
-		"effect": 70,
-		"count": 16
+		"effect": 200,
+		"time": 90,
+		"count": 2
 	},
 	{
 		"id": 227,
-		"name": "氷の綿毛（小）",
-		"itemSeriesId": 80,
-		"effect": 50,
-		"count": 10
+		"name": "氷の球根（大）",
+		"itemSeriesId": 79,
+		"effect": 300,
+		"time": 90,
+		"count": 3
 	},
 	{
 		"id": 228,
-		"name": "氷の綿毛（中）",
+		"name": "雷の球根（小）",
 		"itemSeriesId": 80,
-		"effect": 60,
-		"count": 13
+		"effect": 200,
+		"time": 90,
+		"count": 2
 	},
 	{
 		"id": 229,
-		"name": "氷の綿毛（大）",
+		"name": "雷の球根（大）",
 		"itemSeriesId": 80,
-		"effect": 70,
-		"count": 16
+		"effect": 300,
+		"time": 90,
+		"count": 3
 	},
 	{
 		"id": 230,
-		"name": "雷の綿毛（小）",
+		"name": "炎の綿毛（小）",
 		"itemSeriesId": 81,
 		"effect": 50,
 		"count": 10
 	},
 	{
 		"id": 231,
-		"name": "雷の綿毛（中）",
+		"name": "炎の綿毛（中）",
 		"itemSeriesId": 81,
 		"effect": 60,
 		"count": 13
 	},
 	{
 		"id": 232,
-		"name": "雷の綿毛（大）",
+		"name": "炎の綿毛（大）",
 		"itemSeriesId": 81,
 		"effect": 70,
 		"count": 16
 	},
 	{
 		"id": 233,
-		"name": "炎の布（小）",
+		"name": "氷の綿毛（小）",
 		"itemSeriesId": 82,
-		"effect": 10,
-		"time": 10,
-		"count": 5
+		"effect": 50,
+		"count": 10
 	},
 	{
 		"id": 234,
-		"name": "炎の布（中）",
+		"name": "氷の綿毛（中）",
 		"itemSeriesId": 82,
-		"effect": 15,
-		"time": 15,
-		"count": 8
+		"effect": 60,
+		"count": 13
 	},
 	{
 		"id": 235,
-		"name": "炎の布（大）",
+		"name": "氷の綿毛（大）",
 		"itemSeriesId": 82,
-		"effect": 20,
-		"time": 20,
-		"count": 11
+		"effect": 70,
+		"count": 16
 	},
 	{
 		"id": 236,
-		"name": "氷の布（小）",
+		"name": "雷の綿毛（小）",
 		"itemSeriesId": 83,
-		"effect": 10,
-		"time": 10,
-		"count": 5
+		"effect": 50,
+		"count": 10
 	},
 	{
 		"id": 237,
-		"name": "氷の布（中）",
+		"name": "雷の綿毛（中）",
 		"itemSeriesId": 83,
-		"effect": 15,
-		"time": 15,
-		"count": 8
+		"effect": 60,
+		"count": 13
 	},
 	{
 		"id": 238,
-		"name": "氷の布（大）",
+		"name": "雷の綿毛（大）",
 		"itemSeriesId": 83,
-		"effect": 20,
-		"time": 20,
-		"count": 11
+		"effect": 70,
+		"count": 16
 	},
 	{
 		"id": 239,
-		"name": "雷の布（小）",
+		"name": "炎の布（小）",
 		"itemSeriesId": 84,
 		"effect": 10,
 		"time": 10,
@@ -1773,7 +1725,7 @@
 	},
 	{
 		"id": 240,
-		"name": "雷の布（中）",
+		"name": "炎の布（中）",
 		"itemSeriesId": 84,
 		"effect": 15,
 		"time": 15,
@@ -1781,7 +1733,7 @@
 	},
 	{
 		"id": 241,
-		"name": "雷の布（大）",
+		"name": "炎の布（大）",
 		"itemSeriesId": 84,
 		"effect": 20,
 		"time": 20,
@@ -1789,7 +1741,7 @@
 	},
 	{
 		"id": 242,
-		"name": "毒の布（小）",
+		"name": "氷の布（小）",
 		"itemSeriesId": 85,
 		"effect": 10,
 		"time": 10,
@@ -1797,7 +1749,7 @@
 	},
 	{
 		"id": 243,
-		"name": "毒の布（中）",
+		"name": "氷の布（中）",
 		"itemSeriesId": 85,
 		"effect": 15,
 		"time": 15,
@@ -1805,7 +1757,7 @@
 	},
 	{
 		"id": 244,
-		"name": "毒の布（大）",
+		"name": "氷の布（大）",
 		"itemSeriesId": 85,
 		"effect": 20,
 		"time": 20,
@@ -1813,777 +1765,825 @@
 	},
 	{
 		"id": 245,
-		"name": "石魔人の面（小）",
+		"name": "雷の布（小）",
 		"itemSeriesId": 86,
-		"effect": 300,
-		"time": 60,
-		"count": 1
+		"effect": 10,
+		"time": 10,
+		"count": 5
 	},
 	{
 		"id": 246,
-		"name": "石魔人の面（大）",
+		"name": "雷の布（中）",
 		"itemSeriesId": 86,
-		"effect": 380,
-		"time": 90,
-		"count": 3
+		"effect": 15,
+		"time": 15,
+		"count": 8
 	},
 	{
 		"id": 247,
-		"name": "炎魔人の面（小）",
-		"itemSeriesId": 87,
-		"effect": 300,
-		"time": 60,
-		"count": 1
+		"name": "雷の布（大）",
+		"itemSeriesId": 86,
+		"effect": 20,
+		"time": 20,
+		"count": 11
 	},
 	{
 		"id": 248,
-		"name": "炎魔人の面（大）",
+		"name": "毒の布（小）",
 		"itemSeriesId": 87,
-		"effect": 380,
-		"time": 90,
-		"count": 3
+		"effect": 10,
+		"time": 10,
+		"count": 5
 	},
 	{
 		"id": 249,
-		"name": "氷魔人の面（小）",
-		"itemSeriesId": 88,
-		"effect": 300,
-		"time": 60,
-		"count": 1
+		"name": "毒の布（中）",
+		"itemSeriesId": 87,
+		"effect": 15,
+		"time": 15,
+		"count": 8
 	},
 	{
 		"id": 250,
-		"name": "氷魔人の面（大）",
-		"itemSeriesId": 88,
-		"effect": 380,
-		"time": 90,
-		"count": 3
+		"name": "毒の布（大）",
+		"itemSeriesId": 87,
+		"effect": 20,
+		"time": 20,
+		"count": 11
 	},
 	{
 		"id": 251,
-		"name": "雷魔人の面（小）",
-		"itemSeriesId": 89,
+		"name": "石魔人の面（小）",
+		"itemSeriesId": 88,
 		"effect": 300,
 		"time": 60,
 		"count": 1
 	},
 	{
 		"id": 252,
-		"name": "雷魔人の面（大）",
-		"itemSeriesId": 89,
+		"name": "石魔人の面（大）",
+		"itemSeriesId": 88,
 		"effect": 380,
 		"time": 90,
 		"count": 3
 	},
 	{
 		"id": 253,
-		"name": "樹魔人の面（小）",
-		"itemSeriesId": 90,
+		"name": "炎魔人の面（小）",
+		"itemSeriesId": 89,
 		"effect": 300,
 		"time": 60,
 		"count": 1
 	},
 	{
 		"id": 254,
-		"name": "樹魔人の面（大）",
-		"itemSeriesId": 90,
+		"name": "炎魔人の面（大）",
+		"itemSeriesId": 89,
 		"effect": 380,
 		"time": 90,
 		"count": 3
 	},
 	{
 		"id": 255,
-		"name": "癒しの種（小）",
+		"name": "氷魔人の面（小）",
+		"itemSeriesId": 90,
+		"effect": 300,
+		"time": 60,
+		"count": 1
+	},
+	{
+		"id": 256,
+		"name": "氷魔人の面（大）",
+		"itemSeriesId": 90,
+		"effect": 380,
+		"time": 90,
+		"count": 3
+	},
+	{
+		"id": 257,
+		"name": "雷魔人の面（小）",
 		"itemSeriesId": 91,
+		"effect": 300,
+		"time": 60,
+		"count": 1
+	},
+	{
+		"id": 258,
+		"name": "雷魔人の面（大）",
+		"itemSeriesId": 91,
+		"effect": 380,
+		"time": 90,
+		"count": 3
+	},
+	{
+		"id": 259,
+		"name": "樹魔人の面（小）",
+		"itemSeriesId": 92,
+		"effect": 300,
+		"time": 60,
+		"count": 1
+	},
+	{
+		"id": 260,
+		"name": "樹魔人の面（大）",
+		"itemSeriesId": 92,
+		"effect": 380,
+		"time": 90,
+		"count": 3
+	},
+	{
+		"id": 261,
+		"name": "癒しの種（小）",
+		"itemSeriesId": 93,
 		"effect": 100,
 		"count": 4
 	},
 	{
-		"id": 256,
+		"id": 262,
 		"name": "癒しの種（中）",
-		"itemSeriesId": 91,
+		"itemSeriesId": 93,
 		"effect": 130,
 		"count": 5
 	},
 	{
-		"id": 257,
+		"id": 263,
 		"name": "癒しの種（大）",
-		"itemSeriesId": 91,
+		"itemSeriesId": 93,
 		"effect": 160,
 		"count": 6
 	},
 	{
-		"id": 258,
+		"id": 264,
 		"name": "治癒の種（小）",
-		"itemSeriesId": 92,
+		"itemSeriesId": 94,
 		"effect": 30,
 		"time": 15,
 		"count": 4
 	},
 	{
-		"id": 259,
+		"id": 265,
 		"name": "治癒の種（中）",
-		"itemSeriesId": 92,
+		"itemSeriesId": 94,
 		"effect": 30,
 		"time": 25,
 		"count": 5
 	},
 	{
-		"id": 260,
+		"id": 266,
 		"name": "治癒の種（大）",
-		"itemSeriesId": 92,
+		"itemSeriesId": 94,
 		"effect": 30,
 		"time": 35,
 		"count": 6
 	},
 	{
-		"id": 261,
+		"id": 267,
 		"name": "粘生物の塊（小）",
-		"itemSeriesId": 93,
+		"itemSeriesId": 95,
 		"effect": 150,
 		"count": 2
 	},
 	{
-		"id": 262,
+		"id": 268,
 		"name": "粘生物の塊（中）",
-		"itemSeriesId": 93,
+		"itemSeriesId": 95,
 		"effect": 200,
 		"count": 3
 	},
 	{
-		"id": 263,
+		"id": 269,
 		"name": "粘生物の塊（大）",
-		"itemSeriesId": 93,
+		"itemSeriesId": 95,
 		"effect": 250,
 		"count": 4
 	},
 	{
-		"id": 264,
+		"id": 270,
 		"name": "癒しの花（小）",
-		"itemSeriesId": 94,
+		"itemSeriesId": 96,
 		"effect": 50,
 		"time": 10,
 		"count": 4
 	},
 	{
-		"id": 265,
+		"id": 271,
 		"name": "癒しの花（中）",
-		"itemSeriesId": 94,
+		"itemSeriesId": 96,
 		"effect": 70,
 		"time": 13,
 		"count": 5
 	},
 	{
-		"id": 266,
+		"id": 272,
 		"name": "癒しの花（大）",
-		"itemSeriesId": 94,
+		"itemSeriesId": 96,
 		"effect": 90,
 		"time": 16,
 		"count": 6
 	},
 	{
-		"id": 267,
+		"id": 273,
 		"name": "癒しの霊水（小）",
-		"itemSeriesId": 95,
+		"itemSeriesId": 97,
 		"effect": 70,
 		"time": 20,
 		"count": 4
 	},
 	{
-		"id": 268,
+		"id": 274,
 		"name": "癒しの霊水（中）",
-		"itemSeriesId": 95,
+		"itemSeriesId": 97,
 		"effect": 90,
 		"time": 20,
 		"count": 5
 	},
 	{
-		"id": 269,
+		"id": 275,
 		"name": "癒しの霊水（大）",
-		"itemSeriesId": 95,
+		"itemSeriesId": 97,
 		"effect": 110,
 		"time": 20,
 		"count": 6
 	},
 	{
-		"id": 270,
+		"id": 276,
 		"name": "小公女の仮面（小）",
-		"itemSeriesId": 96,
+		"itemSeriesId": 98,
 		"effect": 80,
 		"time": 5,
 		"count": 2
 	},
 	{
-		"id": 271,
+		"id": 277,
 		"name": "小公女の仮面（中）",
-		"itemSeriesId": 96,
+		"itemSeriesId": 98,
 		"effect": 100,
 		"time": 8,
 		"count": 3
 	},
 	{
-		"id": 272,
+		"id": 278,
 		"name": "小公女の仮面（大）",
-		"itemSeriesId": 96,
+		"itemSeriesId": 98,
 		"effect": 120,
 		"time": 11,
 		"count": 4
 	},
 	{
-		"id": 273,
+		"id": 279,
 		"name": "癒しの果実（小）",
-		"itemSeriesId": 97,
+		"itemSeriesId": 99,
 		"effect": 110,
 		"count": 4
 	},
 	{
-		"id": 274,
+		"id": 280,
 		"name": "癒しの果実（大）",
-		"itemSeriesId": 97,
+		"itemSeriesId": 99,
 		"effect": 140,
 		"count": 5
 	},
 	{
-		"id": 275,
-		"name": "精力花の果実（小）",
-		"itemSeriesId": 98,
-		"time": 60,
-		"count": 4
-	},
-	{
-		"id": 276,
-		"name": "精力花の果実（大）",
-		"itemSeriesId": 98,
-		"time": 60,
-		"count": 4
-	},
-	{
-		"id": 277,
-		"name": "鉄壁花の果実（小）",
-		"itemSeriesId": 99,
-		"time": 60,
-		"count": 4
-	},
-	{
-		"id": 278,
-		"name": "鉄壁花の果実（大）",
-		"itemSeriesId": 99,
-		"time": 60,
-		"count": 4
-	},
-	{
-		"id": 279,
-		"name": "浮遊花の果実（小）",
-		"itemSeriesId": 100,
-		"time": 60,
-		"count": 4
-	},
-	{
-		"id": 280,
-		"name": "浮遊花の果実（大）",
-		"itemSeriesId": 100,
-		"time": 60,
-		"count": 4
-	},
-	{
 		"id": 281,
-		"name": "魔タタビ（小）",
+		"name": "精力花の果実（小）",
+		"itemSeriesId": 100,
+		"time": 60,
+		"count": 4
+	},
+	{
+		"id": 282,
+		"name": "精力花の果実（大）",
+		"itemSeriesId": 100,
+		"time": 60,
+		"count": 4
+	},
+	{
+		"id": 283,
+		"name": "鉄壁花の果実（小）",
 		"itemSeriesId": 101,
+		"time": 60,
+		"count": 4
+	},
+	{
+		"id": 284,
+		"name": "鉄壁花の果実（大）",
+		"itemSeriesId": 101,
+		"time": 60,
+		"count": 4
+	},
+	{
+		"id": 285,
+		"name": "浮遊花の果実（小）",
+		"itemSeriesId": 102,
+		"time": 60,
+		"count": 4
+	},
+	{
+		"id": 286,
+		"name": "浮遊花の果実（大）",
+		"itemSeriesId": 102,
+		"time": 60,
+		"count": 4
+	},
+	{
+		"id": 287,
+		"name": "魔タタビ（小）",
+		"itemSeriesId": 103,
 		"time": 10,
 		"count": 10
 	},
 	{
-		"id": 282,
+		"id": 288,
 		"name": "魔タタビ（中）",
-		"itemSeriesId": 101,
+		"itemSeriesId": 103,
 		"time": 15,
 		"count": 13
 	},
 	{
-		"id": 283,
+		"id": 289,
 		"name": "魔タタビ（大）",
-		"itemSeriesId": 101,
+		"itemSeriesId": 103,
 		"time": 20,
 		"count": 16
 	},
 	{
-		"id": 284,
-		"name": "石のお守り",
-		"itemSeriesId": 102,
-		"time": 50,
-		"count": 5
-	},
-	{
-		"id": 285,
-		"name": "魔石のお守り",
-		"itemSeriesId": 102,
-		"time": 70,
-		"count": 8
-	},
-	{
-		"id": 286,
-		"name": "熔岩のお守り",
-		"itemSeriesId": 103,
-		"time": 50,
-		"count": 5
-	},
-	{
-		"id": 287,
-		"name": "火神のお守り",
-		"itemSeriesId": 103,
-		"time": 70,
-		"count": 8
-	},
-	{
-		"id": 288,
-		"name": "氷のお守り",
-		"itemSeriesId": 104,
-		"time": 50,
-		"count": 5
-	},
-	{
-		"id": 289,
-		"name": "氷神のお守り",
-		"itemSeriesId": 104,
-		"time": 70,
-		"count": 8
-	},
-	{
 		"id": 290,
-		"name": "落雷のお守り",
-		"itemSeriesId": 105,
+		"name": "石のお守り",
+		"itemSeriesId": 104,
 		"time": 50,
 		"count": 5
 	},
 	{
 		"id": 291,
-		"name": "雷神のお守り",
-		"itemSeriesId": 105,
+		"name": "魔石のお守り",
+		"itemSeriesId": 104,
 		"time": 70,
 		"count": 8
 	},
 	{
 		"id": 292,
-		"name": "木のお守り",
-		"itemSeriesId": 106,
+		"name": "熔岩のお守り",
+		"itemSeriesId": 105,
 		"time": 50,
 		"count": 5
 	},
 	{
 		"id": 293,
-		"name": "神木のお守り",
-		"itemSeriesId": 106,
+		"name": "火神のお守り",
+		"itemSeriesId": 105,
 		"time": 70,
 		"count": 8
 	},
 	{
 		"id": 294,
-		"name": "精霊の雷守り",
+		"name": "氷のお守り",
+		"itemSeriesId": 106,
+		"time": 50,
+		"count": 5
+	},
+	{
+		"id": 295,
+		"name": "氷神のお守り",
+		"itemSeriesId": 106,
+		"time": 70,
+		"count": 8
+	},
+	{
+		"id": 296,
+		"name": "落雷のお守り",
 		"itemSeriesId": 107,
+		"time": 50,
+		"count": 5
+	},
+	{
+		"id": 297,
+		"name": "雷神のお守り",
+		"itemSeriesId": 107,
+		"time": 70,
+		"count": 8
+	},
+	{
+		"id": 298,
+		"name": "木のお守り",
+		"itemSeriesId": 108,
+		"time": 50,
+		"count": 5
+	},
+	{
+		"id": 299,
+		"name": "神木のお守り",
+		"itemSeriesId": 108,
+		"time": 70,
+		"count": 8
+	},
+	{
+		"id": 300,
+		"name": "精霊の雷守り",
+		"itemSeriesId": 109,
 		"time": 60,
 		"count": 6
 	},
 	{
-		"id": 295,
-		"name": "石盾のかけら",
-		"itemSeriesId": 108,
-		"time": 30,
-		"count": 10
-	},
-	{
-		"id": 296,
-		"name": "岩盾のかけら",
-		"itemSeriesId": 108,
-		"time": 45,
-		"count": 13
-	},
-	{
-		"id": 297,
-		"name": "熔岩鍋の蓋（小）",
-		"itemSeriesId": 109,
-		"time": 30,
-		"count": 10
-	},
-	{
-		"id": 298,
-		"name": "熔岩鍋の蓋（大）",
-		"itemSeriesId": 109,
-		"time": 45,
-		"count": 13
-	},
-	{
-		"id": 299,
-		"name": "氷細工の蓋（小）",
-		"itemSeriesId": 110,
-		"time": 30,
-		"count": 10
-	},
-	{
-		"id": 300,
-		"name": "氷細工の蓋（大）",
-		"itemSeriesId": 110,
-		"time": 45,
-		"count": 13
-	},
-	{
 		"id": 301,
-		"name": "雷石の蓋（小）",
-		"itemSeriesId": 111,
+		"name": "石盾のかけら",
+		"itemSeriesId": 110,
 		"time": 30,
 		"count": 10
 	},
 	{
 		"id": 302,
-		"name": "雷石の蓋（大）",
-		"itemSeriesId": 111,
+		"name": "岩盾のかけら",
+		"itemSeriesId": 110,
 		"time": 45,
 		"count": 13
 	},
 	{
 		"id": 303,
-		"name": "木製鍋の蓋（小）",
-		"itemSeriesId": 112,
+		"name": "熔岩鍋の蓋（小）",
+		"itemSeriesId": 111,
 		"time": 30,
 		"count": 10
 	},
 	{
 		"id": 304,
-		"name": "木製鍋の蓋（大）",
-		"itemSeriesId": 112,
+		"name": "熔岩鍋の蓋（大）",
+		"itemSeriesId": 111,
 		"time": 45,
 		"count": 13
 	},
 	{
 		"id": 305,
-		"name": "ドロの土（小）",
+		"name": "氷細工の蓋（小）",
+		"itemSeriesId": 112,
+		"time": 30,
+		"count": 10
+	},
+	{
+		"id": 306,
+		"name": "氷細工の蓋（大）",
+		"itemSeriesId": 112,
+		"time": 45,
+		"count": 13
+	},
+	{
+		"id": 307,
+		"name": "雷石の蓋（小）",
 		"itemSeriesId": 113,
+		"time": 30,
+		"count": 10
+	},
+	{
+		"id": 308,
+		"name": "雷石の蓋（大）",
+		"itemSeriesId": 113,
+		"time": 45,
+		"count": 13
+	},
+	{
+		"id": 309,
+		"name": "木製鍋の蓋（小）",
+		"itemSeriesId": 114,
+		"time": 30,
+		"count": 10
+	},
+	{
+		"id": 310,
+		"name": "木製鍋の蓋（大）",
+		"itemSeriesId": 114,
+		"time": 45,
+		"count": 13
+	},
+	{
+		"id": 311,
+		"name": "ドロの土（小）",
+		"itemSeriesId": 115,
 		"time": 15,
 		"count": 1
 	},
 	{
-		"id": 306,
+		"id": 312,
 		"name": "ドロの土（大）",
-		"itemSeriesId": 113,
+		"itemSeriesId": 115,
 		"time": 25,
 		"count": 1
 	},
 	{
-		"id": 307,
+		"id": 313,
 		"name": "吸引草の茎（小）",
-		"itemSeriesId": 114,
+		"itemSeriesId": 116,
 		"time": 3,
 		"count": 4
 	},
 	{
-		"id": 308,
+		"id": 314,
 		"name": "吸引草の茎（中）",
-		"itemSeriesId": 114,
+		"itemSeriesId": 116,
 		"time": 5,
 		"count": 4
 	},
 	{
-		"id": 309,
+		"id": 315,
 		"name": "吸引草の茎（大）",
-		"itemSeriesId": 114,
+		"itemSeriesId": 116,
 		"time": 8,
 		"count": 4
 	},
 	{
-		"id": 310,
-		"name": "食欲の実（小）",
-		"itemSeriesId": 115,
-		"time": 10,
-		"count": 1
-	},
-	{
-		"id": 311,
-		"name": "食欲の実（大）",
-		"itemSeriesId": 115,
-		"time": 15,
-		"count": 3
-	},
-	{
-		"id": 312,
-		"name": "欲望金貨の袋（小）",
-		"itemSeriesId": 116,
-		"time": 10,
-		"count": 1
-	},
-	{
-		"id": 313,
-		"name": "欲望金貨の袋（大）",
-		"itemSeriesId": 116,
-		"time": 15,
-		"count": 3
-	},
-	{
-		"id": 314,
-		"name": "青い色欲の実（小）",
-		"itemSeriesId": 117,
-		"time": 10,
-		"count": 1
-	},
-	{
-		"id": 315,
-		"name": "青い色欲の実（大）",
-		"itemSeriesId": 117,
-		"time": 15,
-		"count": 3
-	},
-	{
 		"id": 316,
-		"name": "赤い色欲の実（小）",
-		"itemSeriesId": 118,
+		"name": "食欲の実（小）",
+		"itemSeriesId": 117,
 		"time": 10,
 		"count": 1
 	},
 	{
 		"id": 317,
-		"name": "赤い色欲の実（大）",
-		"itemSeriesId": 118,
+		"name": "食欲の実（大）",
+		"itemSeriesId": 117,
 		"time": 15,
 		"count": 3
 	},
 	{
 		"id": 318,
-		"name": "時の砂",
-		"itemSeriesId": 119,
-		"time": 5,
+		"name": "欲望金貨の袋（小）",
+		"itemSeriesId": 118,
+		"time": 10,
 		"count": 1
 	},
 	{
 		"id": 319,
-		"name": "時の砂鉄",
-		"itemSeriesId": 119,
-		"time": 7,
-		"count": 1
+		"name": "欲望金貨の袋（大）",
+		"itemSeriesId": 118,
+		"time": 15,
+		"count": 3
 	},
 	{
 		"id": 320,
-		"name": "時の砂金",
+		"name": "青い色欲の実（小）",
 		"itemSeriesId": 119,
-		"time": 9,
+		"time": 10,
 		"count": 1
 	},
 	{
 		"id": 321,
-		"name": "炎の砂鉄時計（小）",
-		"itemSeriesId": 120,
-		"time": 4,
-		"count": 1
+		"name": "青い色欲の実（大）",
+		"itemSeriesId": 119,
+		"time": 15,
+		"count": 3
 	},
 	{
 		"id": 322,
-		"name": "炎の砂鉄時計（大）",
+		"name": "赤い色欲の実（小）",
 		"itemSeriesId": 120,
-		"time": 6,
+		"time": 10,
 		"count": 1
 	},
 	{
 		"id": 323,
-		"name": "氷の砂鉄時計（小）",
-		"itemSeriesId": 121,
-		"time": 4,
-		"count": 1
+		"name": "赤い色欲の実（大）",
+		"itemSeriesId": 120,
+		"time": 15,
+		"count": 3
 	},
 	{
 		"id": 324,
-		"name": "氷の砂鉄時計（大）",
+		"name": "時の砂",
 		"itemSeriesId": 121,
-		"time": 6,
+		"time": 5,
 		"count": 1
 	},
 	{
 		"id": 325,
-		"name": "雷の砂鉄時計（小）",
-		"itemSeriesId": 122,
-		"time": 4,
+		"name": "時の砂鉄",
+		"itemSeriesId": 121,
+		"time": 7,
 		"count": 1
 	},
 	{
 		"id": 326,
-		"name": "雷の砂鉄時計（大）",
-		"itemSeriesId": 122,
-		"time": 6,
+		"name": "時の砂金",
+		"itemSeriesId": 121,
+		"time": 9,
 		"count": 1
 	},
 	{
 		"id": 327,
-		"name": "岩の砂鉄時計（小）",
-		"itemSeriesId": 123,
+		"name": "炎の砂鉄時計（小）",
+		"itemSeriesId": 122,
 		"time": 4,
 		"count": 1
 	},
 	{
 		"id": 328,
-		"name": "岩の砂鉄時計（大）",
-		"itemSeriesId": 123,
+		"name": "炎の砂鉄時計（大）",
+		"itemSeriesId": 122,
 		"time": 6,
 		"count": 1
 	},
 	{
 		"id": 329,
-		"name": "魔女の髮飾り（小）",
-		"itemSeriesId": 124,
-		"time": 2,
+		"name": "氷の砂鉄時計（小）",
+		"itemSeriesId": 123,
+		"time": 4,
 		"count": 1
 	},
 	{
 		"id": 330,
-		"name": "魔女の髮飾り（中）",
-		"itemSeriesId": 124,
-		"time": 3,
+		"name": "氷の砂鉄時計（大）",
+		"itemSeriesId": 123,
+		"time": 6,
 		"count": 1
 	},
 	{
 		"id": 331,
-		"name": "魔女の髮飾り（大）",
+		"name": "雷の砂鉄時計（小）",
 		"itemSeriesId": 124,
 		"time": 4,
 		"count": 1
 	},
 	{
 		"id": 332,
-		"name": "結界の鎖",
+		"name": "雷の砂鉄時計（大）",
+		"itemSeriesId": 124,
+		"time": 6,
+		"count": 1
+	},
+	{
+		"id": 333,
+		"name": "岩の砂鉄時計（小）",
 		"itemSeriesId": 125,
+		"time": 4,
+		"count": 1
+	},
+	{
+		"id": 334,
+		"name": "岩の砂鉄時計（大）",
+		"itemSeriesId": 125,
+		"time": 6,
+		"count": 1
+	},
+	{
+		"id": 335,
+		"name": "魔女の髮飾り（小）",
+		"itemSeriesId": 126,
+		"time": 2,
+		"count": 1
+	},
+	{
+		"id": 336,
+		"name": "魔女の髮飾り（中）",
+		"itemSeriesId": 126,
+		"time": 3,
+		"count": 1
+	},
+	{
+		"id": 337,
+		"name": "魔女の髮飾り（大）",
+		"itemSeriesId": 126,
+		"time": 4,
+		"count": 1
+	},
+	{
+		"id": 338,
+		"name": "結界の鎖",
+		"itemSeriesId": 127,
 		"time": 10,
 		"count": 3
 	},
 	{
-		"id": 333,
+		"id": 339,
 		"name": "運命の箱（小）",
-		"itemSeriesId": 126,
+		"itemSeriesId": 128,
 		"count": 5
 	},
 	{
-		"id": 334,
+		"id": 340,
 		"name": "運命の箱（大）",
-		"itemSeriesId": 126,
+		"itemSeriesId": 128,
 		"count": 9
 	},
 	{
-		"id": 335,
+		"id": 341,
 		"name": "モグラの爪（小）",
-		"itemSeriesId": 127,
+		"itemSeriesId": 129,
 		"time": 40,
 		"count": 2
 	},
 	{
-		"id": 336,
+		"id": 342,
 		"name": "モグラの爪（中）",
-		"itemSeriesId": 127,
+		"itemSeriesId": 129,
 		"time": 45,
 		"count": 5
 	},
 	{
-		"id": 337,
+		"id": 343,
 		"name": "モグラの爪（大）",
-		"itemSeriesId": 127,
+		"itemSeriesId": 129,
 		"time": 50,
 		"count": 8
 	},
 	{
-		"id": 338,
+		"id": 344,
 		"name": "隼の羽（小）",
-		"itemSeriesId": 128,
+		"itemSeriesId": 130,
 		"time": 20,
 		"count": 5
 	},
 	{
-		"id": 339,
+		"id": 345,
 		"name": "隼の羽（中）",
-		"itemSeriesId": 128,
+		"itemSeriesId": 130,
 		"time": 25,
 		"count": 8
 	},
 	{
-		"id": 340,
+		"id": 346,
 		"name": "隼の羽（大）",
-		"itemSeriesId": 128,
+		"itemSeriesId": 130,
 		"time": 30,
 		"count": 11
 	},
 	{
-		"id": 341,
+		"id": 347,
 		"name": "綿毛淑女の羽（小）",
-		"itemSeriesId": 129,
+		"itemSeriesId": 131,
 		"time": 5,
 		"count": 10
 	},
 	{
-		"id": 342,
+		"id": 348,
 		"name": "綿毛淑女の羽（中）",
-		"itemSeriesId": 129,
+		"itemSeriesId": 131,
 		"time": 7,
 		"count": 13
 	},
 	{
-		"id": 343,
+		"id": 349,
 		"name": "綿毛淑女の羽（大）",
-		"itemSeriesId": 129,
+		"itemSeriesId": 131,
 		"time": 9,
 		"count": 16
 	},
 	{
-		"id": 344,
+		"id": 350,
 		"name": "暗殺者の翼膜（小）",
-		"itemSeriesId": 130,
+		"itemSeriesId": 132,
 		"time": 60,
 		"count": 1
 	},
 	{
-		"id": 345,
+		"id": 351,
 		"name": "暗殺者の翼膜（中）",
-		"itemSeriesId": 130,
+		"itemSeriesId": 132,
 		"time": 90,
 		"count": 2
 	},
 	{
-		"id": 346,
+		"id": 352,
 		"name": "暗殺者の翼膜（大）",
-		"itemSeriesId": 130,
+		"itemSeriesId": 132,
 		"time": 120,
 		"count": 3
 	},
 	{
-		"id": 347,
+		"id": 353,
 		"name": "灼熱石",
-		"itemSeriesId": 131,
-		"time": 30,
-		"count": 4
-	},
-	{
-		"id": 348,
-		"name": "海底石",
-		"itemSeriesId": 132,
-		"time": 30,
-		"count": 4
-	},
-	{
-		"id": 349,
-		"name": "雷雲石",
 		"itemSeriesId": 133,
 		"time": 30,
 		"count": 4
 	},
 	{
-		"id": 350,
-		"name": "海魔のうろこ（小）",
+		"id": 354,
+		"name": "海底石",
 		"itemSeriesId": 134,
+		"time": 30,
+		"count": 4
+	},
+	{
+		"id": 355,
+		"name": "雷雲石",
+		"itemSeriesId": 135,
+		"time": 30,
+		"count": 4
+	},
+	{
+		"id": 356,
+		"name": "海魔のうろこ（小）",
+		"itemSeriesId": 136,
 		"time": 10,
 		"count": 2
 	},
 	{
-		"id": 351,
+		"id": 357,
 		"name": "海魔のうろこ（中）",
-		"itemSeriesId": 134,
+		"itemSeriesId": 136,
 		"time": 15,
 		"count": 3
 	},
 	{
-		"id": 352,
+		"id": 358,
 		"name": "海魔のうろこ（大）",
-		"itemSeriesId": 134,
+		"itemSeriesId": 136,
 		"time": 20,
 		"count": 4
 	}
