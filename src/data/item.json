@@ -1,5 +1,53 @@
 [
 	{
+		"id": 0,
+		"name": "右腕の呪血",
+		"itemSeriesId": 0,
+		"effect": 10
+	},
+	{
+		"id": 1,
+		"name": "右腕の魔呪血",
+		"itemSeriesId": 0,
+		"effect": 20
+	},
+	{
+		"id": 2,
+		"name": "右腕の血（魔）",
+		"itemSeriesId": 0,
+		"effect": 50
+	},
+	{
+		"id": 3,
+		"name": "右腕の血（聖）",
+		"itemSeriesId": 0,
+		"effect": 15
+	},
+	{
+		"id": 4,
+		"name": "斧の破片",
+		"itemSeriesId": 1,
+		"effect": 35,
+		"time": 30,
+		"count": 4
+	},
+	{
+		"id": 5,
+		"name": "鉄斧の破片",
+		"itemSeriesId": 1,
+		"effect": 60,
+		"time": 35,
+		"count": 7
+	},
+	{
+		"id": 6,
+		"name": "戦斧の破片",
+		"itemSeriesId": 1,
+		"effect": 90,
+		"time": 40,
+		"count": 10
+	},
+	{
 		"id": 7,
 		"name": "小悪魔のフォーク",
 		"itemSeriesId": 2,
