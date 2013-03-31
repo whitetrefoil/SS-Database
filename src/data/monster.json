@@ -1264,5 +1264,101 @@
 				"hp": "B"
 			}
 		]
+	},
+	{
+		"id": 45,
+		"name": "ニミュエ",
+		"isBoss": true,
+		"resist": [0, 0, 0, 0, 0],
+		"defences": [
+			{
+				"name": "全身",
+				"defence": [2, 2, 2, 2, 2, 2]
+			}
+		]
+	},
+	{
+		"id": 46,
+		"name": "ニヒル",
+		"isBoss": true,
+		"resist": [0, 0, 0, 0, 0],
+		"defences": [
+			{
+				"name": "全身",
+				"defence": [2, 2, 2, 2, 2, 2]
+			}
+		]
+	},
+	{
+		"id": 47,
+		"name": "カメリア",
+		"isBoss": true,
+		"resist": [0, 0, 0, 0, 0],
+		"defences": [
+			{
+				"name": "全身",
+				"defence": [2, 2, 2, 2, 2, 2]
+			}
+		]
+	},
+	{
+		"id": 48,
+		"name": "ロジア",
+		"isBoss": true,
+		"resist": [0, 0, 0, 0, 0],
+		"defences": [
+			{
+				"name": "全身",
+				"defence": [2, 2, 2, 2, 2, 2]
+			}
+		]
+	},
+	{
+		"id": 49,
+		"name": "ヴィーゴ",
+		"isBoss": true,
+		"resist": [0, 0, 0, 0, 0],
+		"defences": [
+			{
+				"name": "全身",
+				"defence": [2, 2, 2, 2, 2, 2]
+			}
+		]
+	},
+	{
+		"id": 50,
+		"name": "シビーラ",
+		"isBoss": true,
+		"resist": [0, 0, 0, 0, 0],
+		"defences": [
+			{
+				"name": "全身",
+				"defence": [2, 2, 2, 2, 2, 2]
+			}
+		]
+	},
+	{
+		"id": 51,
+		"name": "モルガン・ル・フェ",
+		"isBoss": true,
+		"resist": [0, 0, 0, 0, 0],
+		"defences": [
+			{
+				"name": "全身",
+				"defence": [2, 2, 2, 2, 2, 2]
+			}
+		]
+	},
+	{
+		"id": 52,
+		"name": "マーリン",
+		"isBoss": true,
+		"resist": [0, 0, 0, 0, 0],
+		"defences": [
+			{
+				"name": "全身",
+				"defence": [2, 2, 2, 2, 2, 2]
+			}
+		]
 	}
 ]
