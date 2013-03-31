@@ -1,5 +1,17 @@
 [
 	{
+		"id": 0,
+		"type": 0,
+		"elem": 0,
+		"range": 0
+	},
+	{
+		"id": 1,
+		"type": 1,
+		"elem": 0,
+		"range": 0
+	},
+	{
 		"id": 2,
 		"type": 1,
 		"elem": 1,
