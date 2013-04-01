@@ -58,5 +58,55 @@
 		"type": 3,
 		"monsters": [45],
 		"rewards": [265, 265, 288, 288, 19]
+	},
+	{
+		"id": 6,
+		"series": 0,
+		"chapter": 1,
+		"title": "あれから数年後　第一章",
+		"level": 1,
+		"type": 0,
+		"monsters": [1, 0],
+		"rewards": [304, 304, 25, 25, 76]
+	},
+	{
+		"id": 7,
+		"series": 0,
+		"chapter": 1,
+		"title": "あれから数年後　第二章",
+		"level": 1,
+		"type": 1,
+		"monsters": [10, 24],
+		"rewards": [58, 58, 28, 28, 194]
+	},
+	{
+		"id": 8,
+		"series": 0,
+		"chapter": 1,
+		"title": "あれから数年後　第三章",
+		"level": 1,
+		"type": 0,
+		"monsters": [2, 0, 3],
+		"rewards": [302, 302, 345, 345, 182]
+	},
+	{
+		"id": 9,
+		"series": 0,
+		"chapter": 1,
+		"title": "あれから数年後　第四章",
+		"level": 2,
+		"type": 0,
+		"monsters": [8, 10, 19],
+		"rewards": [191, 191, 16, 16, 185]
+	},
+	{
+		"id": 10,
+		"series": 0,
+		"chapter": 1,
+		"title": "あれから数年後　第五章",
+		"level": 2,
+		"type": 1,
+		"monsters": [5, 10, 27],
+		"rewards": [271, 271, 325, 325, 194]
 	}
 ]
