@@ -108,5 +108,55 @@
 		"type": 1,
 		"monsters": [5, 10, 27],
 		"rewards": [271, 271, 325, 325, 194]
+	},
+	{
+		"id": 11,
+		"series": 0,
+		"chapter": 2,
+		"title": "過去の因縁　第一章",
+		"level": 3,
+		"type": 1,
+		"monsters": [7, 21, 30],
+		"rewards": [88, 88, 319, 319, 195]
+	},
+	{
+		"id": 12,
+		"series": 0,
+		"chapter": 2,
+		"title": "過去の因縁　第二章",
+		"level": 3,
+		"type": 1,
+		"monsters": [10, 12, 24],
+		"rewards": [10, 10, 234, 234, 5]
+	},
+	{
+		"id": 13,
+		"series": 0,
+		"chapter": 2,
+		"title": "過去の因縁　第三章",
+		"level": 4,
+		"type": 3,
+		"monsters": [0, 51],
+		"rewards": [262, null, 325, null, 340]
+	},
+	{
+		"id": 14,
+		"series": 0,
+		"chapter": 2,
+		"title": "過去の因縁　第四章",
+		"level": 4,
+		"type": 0,
+		"monsters": [15, 7, 8],
+		"rewards": [317, 317, 249, 249, 192]
+	},
+	{
+		"id": 15,
+		"series": 0,
+		"chapter": 2,
+		"title": "過去の因縁　第五章",
+		"level": 4,
+		"type": 1,
+		"monsters": [3, 14, 24],
+		"rewards": [182, 182, 229, 229, 201]
 	}
 ]
