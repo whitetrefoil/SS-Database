@@ -133,31 +133,8 @@ App.items = new ItemCollection()
 
 # ### Models ###
 
-# 任务奖励，这个没有单独的表，是包括在 Quest 里的
-class Reward extends Backbone.RelationalModel
-  relations: [{
-    # 每个任务奖励有一个供物
-    type: Backbone.HasOne
-    key: 'item'
-    relatedModel: Item
-    includeInJSON: ['id', 'name']
-    reverseRelation: {
-      key: 'rewards'
-      includeInJSON: ['id', 'name']
-    }
-  }]
-
 # 任务
 class Quest extends Backbone.RelationalModel
-  relations: [{
-    # 每个任务有多个奖励
-    type: Backbone.HasMany
-    key: 'rewards'
-    relatedModel: Reward
-    reverseRelation: {
-      key: 'quest'
-    }
-  }]
 
 
 # ### Collections ###
