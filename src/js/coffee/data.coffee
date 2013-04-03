@@ -75,6 +75,13 @@ class Item extends Backbone.RelationalModel
     }
   }]
 
+  quests: []
+
+  getQuests: (questCollection) ->
+    @quests = questCollection.filter (questModel) =>
+      questModel.get('rewards').findWhere({id: @get('id')}) isnt undefined
+
+
 
 # ### Collections ###
 
@@ -139,7 +146,12 @@ App.items = new ItemCollection()
 
 # 任务
 class Quest extends Backbone.RelationalModel
-
+  relations: [{
+    type: Backbone.HasMany
+    key: 'rewards'
+    relatedModel: Item
+    includeInJSON: true
+  }]
 
 # ### Collections ###
 
@@ -147,8 +159,11 @@ class Quest extends Backbone.RelationalModel
 class QuestCollection extends Backbone.Collection
   model: Quest
   url: 'data/quest.json'
-  initialize: -> @fetch()
-
+  initialize: ->
+    @fetch()
+    @on 'sync', () =>
+      # Initialize Quest Data in Items
+      App.items.invoke('getQuests', this)
 
 # ### Initializing / Loading Data ###
 

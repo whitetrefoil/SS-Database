@@ -109,6 +109,18 @@
       }
     ];
 
+    Item.prototype.quests = [];
+
+    Item.prototype.getQuests = function(questCollection) {
+      var _this = this;
+
+      return this.quests = questCollection.filter(function(questModel) {
+        return questModel.get('rewards').findWhere({
+          id: _this.get('id')
+        }) !== void 0;
+      });
+    };
+
     return Item;
 
   })(Backbone.RelationalModel);
@@ -231,6 +243,15 @@
       return _ref10;
     }
 
+    Quest.prototype.relations = [
+      {
+        type: Backbone.HasMany,
+        key: 'rewards',
+        relatedModel: Item,
+        includeInJSON: true
+      }
+    ];
+
     return Quest;
 
   })(Backbone.RelationalModel);
@@ -248,7 +269,12 @@
     QuestCollection.prototype.url = 'data/quest.json';
 
     QuestCollection.prototype.initialize = function() {
-      return this.fetch();
+      var _this = this;
+
+      this.fetch();
+      return this.on('sync', function() {
+        return App.items.invoke('getQuests', _this);
+      });
     };
 
     return QuestCollection;
