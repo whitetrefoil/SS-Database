@@ -3,6 +3,17 @@ require 'sinatra/base'
 require 'coffee-script'
 require 'sass'
 
+module Tilt
+  class CoffeeScriptTemplate < Template
+    alias_method :original_prepare, :prepare
+
+    def prepare
+      @data.force_encoding 'UTF-8'
+      original_prepare
+    end
+  end
+end
+
 class DevServer < Sinatra::Base
   configure do
     set :root, File.dirname(__FILE__)
@@ -12,11 +23,11 @@ class DevServer < Sinatra::Base
   end
 
   get '/css/*.css' do
-    sass :"#{params[:splat][0]}", :cache => false, :style => :expanded, :views => 'src/css/sass' rescue status 404
+    sass :"#{params[:splat][0]}", :cache => false, :style => :expanded, :views => 'src/css/sass'
   end
 
   get '/js/*.js' do
-    coffee :"#{params[:splat][0]}", :views => 'src/js/coffee' rescue status 404
+    coffee :"#{params[:splat][0]}", :views => 'src/js/coffee'
   end
 
   get '/*' do
