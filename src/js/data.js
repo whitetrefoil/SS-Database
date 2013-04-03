@@ -60,7 +60,8 @@
         relatedModel: ItemType,
         reverseRelation: {
           relatedCollection: ItemSeriesCollection,
-          key: 'itemSerieses'
+          key: 'itemSerieses',
+          includeInJSON: ['id', 'name']
         }
       }, {
         type: Backbone.HasOne,
@@ -68,7 +69,8 @@
         relatedModel: ItemElem,
         reverseRelation: {
           relatedCollection: ItemSeriesCollection,
-          key: 'itemSerieses'
+          key: 'itemSerieses',
+          includeInJSON: ['id', 'name']
         }
       }, {
         type: Backbone.HasOne,
@@ -76,7 +78,8 @@
         relatedModel: ItemRange,
         reverseRelation: {
           relatedCollection: ItemSeriesCollection,
-          key: 'itemSerieses'
+          key: 'itemSerieses',
+          includeInJSON: ['id', 'name']
         }
       }
     ];
@@ -98,6 +101,7 @@
         type: Backbone.HasOne,
         key: 'itemSeriesId',
         relatedModel: ItemSeries,
+        includeInJSON: ['id'],
         reverseRelation: {
           relatedCollection: ItemCollection,
           key: 'items'

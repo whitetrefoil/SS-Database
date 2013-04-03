@@ -37,6 +37,7 @@ class ItemSeries extends Backbone.RelationalModel
     reverseRelation: {
       relatedCollection: ItemSeriesCollection
       key: 'itemSerieses'
+      includeInJSON: ['id', 'name']
     }
   }, {
     # 每个系列有一种元素属性
@@ -46,7 +47,8 @@ class ItemSeries extends Backbone.RelationalModel
     reverseRelation: {
       relatedCollection: ItemSeriesCollection
       key: 'itemSerieses'
-      }
+      includeInJSON: ['id', 'name']
+    }
   }, {
     # 每个系列有一个射程 / 范围
     type: Backbone.HasOne
@@ -55,6 +57,7 @@ class ItemSeries extends Backbone.RelationalModel
     reverseRelation: {
       relatedCollection: ItemSeriesCollection
       key: 'itemSerieses'
+      includeInJSON: ['id', 'name']
     }
   }]
 
@@ -65,6 +68,7 @@ class Item extends Backbone.RelationalModel
     type: Backbone.HasOne
     key: 'itemSeriesId'
     relatedModel: ItemSeries
+    includeInJSON: ['id']
     reverseRelation: {
       relatedCollection: ItemCollection
       key: 'items'
