@@ -27,7 +27,7 @@ class DevServer < Sinatra::Base
   end
 
   get '/js/*.js' do
-    coffee :"#{params[:splat][0]}", :bare => true, :views => 'src/js/coffee'
+    coffee :"#{params[:splat][0]}", :views => 'src/js/coffee'
   end
 
   get '/*' do
