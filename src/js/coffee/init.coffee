@@ -9,11 +9,18 @@ requirejs.config
     lib: '../lib'
     tmpl: '../tmpl'
 
-# Require
+# Require global libraries
 requirejs([
   'lib/jquery/jquery',
   'lib/underscore/underscore',
   'lib/backbone/backbone',
   'lib/backbone/backbone-relational',
-  'data'
 ])
+
+# Require private scripts
+requirejs([
+  'data'
+], (app) ->
+  # Export App to global for development
+  window.App = app
+)

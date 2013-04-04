@@ -8,9 +8,6 @@
 # If property is _NOT_ set, use this instead
 NULL_REPLACE = '-'
 
-# Get or initialize the global wrapper
-App = window.App || {}
-
 # Items
 # ----------
 
@@ -129,14 +126,6 @@ class ItemSeriesCollection extends Backbone.Collection
     @fetch()
 
 
-# ### Initializing / Loading Data ###
-
-#
-App.itemElems = new ItemElemCollection()
-App.itemTypes = new ItemTypeCollection()
-App.itemRanges = new ItemRangeCollection()
-App.itemSerieses = new ItemSeriesCollection()
-App.items = new ItemCollection()
 
 
 # Quests
@@ -161,14 +150,25 @@ class QuestCollection extends Backbone.Collection
   url: 'data/quest.json'
   initialize: ->
     @fetch()
-    @on 'sync', () =>
-      # Initialize Quest Data in Items
-      App.items.invoke('getQuests', this)
+
+# Exporting
+# ----------
 
 # ### Initializing / Loading Data ###
+_export_fn_ = () ->
+  exports = {}
+  exports.itemElems = new ItemElemCollection
+  exports.itemTypes = new ItemTypeCollection
+  exports.itemRanges = new ItemRangeCollection
+  exports.itemSerieses = new ItemSeriesCollection
+  exports.items = new ItemCollection
+  exports.quests = new QuestCollection
+  exports.quests.on 'sync', () ->
+    # Initialize Quest Data in Items
+    exports.items.invoke('getQuests', this)
 
-#
-App.quests = new QuestCollection
+  exports
 
-# Set the global wrapper back to window
-window.App = App
+
+# Define AMD module
+define _export_fn_
