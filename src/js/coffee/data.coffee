@@ -151,6 +151,27 @@ class QuestCollection extends Backbone.Collection
   initialize: ->
     @fetch()
 
+
+
+# Monsters
+# ----------
+
+# ### Models ###
+
+# 怪物
+class Monster extends Backbone.RelationalModel
+
+
+
+# ### Collections ###
+
+# 怪物的集合
+class MonsterCollection extends Backbone.Collection
+  model: Monster
+  url: 'data/monster.json'
+  initialize: ->
+    @fetch()
+
 # Exporting
 # ----------
 
@@ -166,6 +187,7 @@ _export_fn_ = () ->
   exports.quests.on 'sync', () ->
     # Initialize Quest Data in Items
     exports.items.invoke('getQuests', this)
+  exports.monsters = new MonsterCollection
 
   exports
 
