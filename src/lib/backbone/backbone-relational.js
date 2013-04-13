@@ -1,6 +1,6 @@
 /* vim: set tabstop=4 softtabstop=4 shiftwidth=4 noexpandtab: */
 /**
- * Backbone-relational.js 0.8.0+
+ * Backbone-relational.js 0.8.5
  * (c) 2011-2013 Paul Uithol and contributors (https://github.com/PaulUithol/Backbone-relational/graphs/contributors)
  * 
  * Backbone-relational may be freely distributed under the MIT license; see the accompanying LICENSE.txt.
@@ -1077,7 +1077,7 @@
 				var dit = this,
 					collection = this.collection =  options.collection;
 
-				// Prevent this option from cascading down to related models; they shouldn't go into this `if` clause.
+				// Prevent `collection` from cascading down to nested models; they shouldn't go into this `if` clause.
 				delete options.collection;
 
 				this._deferProcessing = true;
@@ -1647,6 +1647,9 @@
 			// If not, create an instance (unless 'options.create' is false).
 			if ( _.isObject( attributes ) ) {
 				if ( model && options.merge !== false ) {
+					// Make sure `options.collection` doesn't cascade to nested models
+					delete options.collection;
+
 					model.set( parsedAttributes, options );
 				}
 				else if ( !model && options.create !== false ) {
@@ -1676,7 +1679,7 @@
 			model = attrs;
 		}
 		else {
-			options || (options = {});
+			options || ( options = {} );
 			options.collection = this;
 			
 			if ( typeof this.model.findOrCreate !== 'undefined' ) {
@@ -1789,6 +1792,7 @@
 	 */
 	var reset = Backbone.Collection.prototype.__reset = Backbone.Collection.prototype.reset;
 	Backbone.Collection.prototype.reset = function( models, options ) {
+		options = _.extend( { merge: true }, options );
 		reset.call( this, models, options );
 
 		if ( this.model.prototype instanceof Backbone.RelationalModel ) {
