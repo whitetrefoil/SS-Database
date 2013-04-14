@@ -9,6 +9,9 @@ define([
   class AppView extends Backbone.View
     el: '#app'
 
+    initialize: () ->
+      @trigger 'ready'
+
   # Return (exports)
   AppView
 )
