@@ -15,6 +15,7 @@ requirejs.config
     underscore: '../lib/underscore/underscore'
     backbone: '../lib/backbone/backbone'
     'backbone-relational': '../lib/backbone/backbone-relational'
+    mustache: '../lib/mustache/mustache'
 
   # Set libraries that are not compatible with AMD API
   shim:
