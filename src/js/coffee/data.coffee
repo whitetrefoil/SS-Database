@@ -10,6 +10,7 @@ define([
   'collections/quest'
   'views/monster'
   'views/item'
+  'views/quest'
 ], (
   ItemCollection
   ItemElemCollection
@@ -20,6 +21,7 @@ define([
   QuestCollection
   MonsterView
   ItemView
+  QuestView
 ) ->
   # ### Initializing / Loading Data ###
   #
@@ -37,6 +39,7 @@ define([
   exports.monsters = new MonsterCollection
   exports.monsterView = new MonsterView
   exports.itemView = new ItemView
+  exports.questView = new QuestView({itemCollection : exports.itemView.collection})
 
   exports
 )
