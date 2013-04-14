@@ -1,11 +1,11 @@
 'use strict'
 
 define([
-  'backbone',
-  'models/itemSeries',
+  'backbone'
+  'models/itemSeries'
   'backbone-relational'
 ], (
-  Backbone,
+  Backbone
   ItemSeries
 ) ->
   # 供物 （同一供物不同★数不单独算，但大中小等级单独算）

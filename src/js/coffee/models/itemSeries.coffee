@@ -1,15 +1,15 @@
 'use strict'
 
 define([
-  'backbone',
-  'models/itemType',
-  'models/itemElem',
-  'models/itemRange',
+  'backbone'
+  'models/itemType'
+  'models/itemElem'
+  'models/itemRange'
   'backbone-relational'
 ], (
-  Backbone,
-  ItemType,
-  ItemElem,
+  Backbone
+  ItemType
+  ItemElem
   ItemRange
 ) ->
   # 供物系列（比如同一供物的大中小三级，算3个不同的Item，组成一个ItemSeries）

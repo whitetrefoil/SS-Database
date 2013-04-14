@@ -1,21 +1,21 @@
 'use strict'
 
 define([
-  'collections/item',
-  'collections/itemElem',
-  'collections/itemRange',
-  'collections/itemSeries',
-  'collections/itemType',
-  'collections/monster',
-  'collections/quest',
+  'collections/item'
+  'collections/itemElem'
+  'collections/itemRange'
+  'collections/itemSeries'
+  'collections/itemType'
+  'collections/monster'
+  'collections/quest'
 ], (
-  ItemCollection,
-  ItemElemCollection,
+  ItemCollection
+  ItemElemCollection
   ItemRangeCollection
-  ItemSeriesCollection,
-  ItemTypeCollection,
-  MonsterCollection,
-  QuestCollection,
+  ItemSeriesCollection
+  ItemTypeCollection
+  MonsterCollection
+  QuestCollection
 ) ->
   # ### Initializing / Loading Data ###
   exports = {}

@@ -1,7 +1,7 @@
 'use strict'
 
 define([
-  'backbone',
+  'backbone'
   'backbone-relational'
 ], (
   Backbone
