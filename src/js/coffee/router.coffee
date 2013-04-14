@@ -53,14 +53,5 @@ define([
       @itemView = new ItemView
       @questView = new QuestView({itemCollection : @itemView.collection})
 
-      # ### Initializing / Loading Data ###
-      #
-      # **These are for development only!!!***
-      App = window.App || {}
-      App.appView = @appView
-      App.monsterView = @monsterView
-      App.itemView = @itemView
-      App.questView = @questView
-      window.App = App
-
+  return Router
 )

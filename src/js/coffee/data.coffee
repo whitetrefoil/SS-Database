@@ -7,6 +7,6 @@ define([
   Backbone
   Router
 ) ->
-  new Router
+  window.App = new Router
   Backbone.history.start()
 )
