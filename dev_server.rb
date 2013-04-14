@@ -22,6 +22,10 @@ class DevServer < Sinatra::Base
     set :port, 4567
   end
 
+  before do
+    expires -1
+  end
+
   get '/css/*.css' do
     sass :"#{params[:splat][0]}", :cache => false, :style => :expanded, :views => 'src/css/sass' rescue pass
   end
