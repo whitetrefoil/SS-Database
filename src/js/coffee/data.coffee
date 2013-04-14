@@ -20,6 +20,8 @@ define([
   MonsterView
 ) ->
   # ### Initializing / Loading Data ###
+  #
+  # **These are for development only!!!***
   exports = {}
   exports.itemElems = new ItemElemCollection
   exports.itemTypes = new ItemTypeCollection
