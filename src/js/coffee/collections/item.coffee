@@ -9,6 +9,7 @@ define([
     model: Item
     url: 'data/item.json'
 
+    # Load data once constructed
     initialize: ->
       @fetch()
 

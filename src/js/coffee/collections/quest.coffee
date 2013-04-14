@@ -9,6 +9,7 @@ define([
     model: Quest
     url: 'data/quest.json'
 
+    # Load data once constructed
     initialize: ->
       @fetch()
 

@@ -17,6 +17,9 @@ define([
     initialize: (options) ->
       _this = this
       @collection = new QuestCollection
+
+      # Call `itemCollection.getQuests()` to emulate many-to-many
+      # relationship betweet quests and items
       @collection.on 'sync', ->
         options.itemCollection.invoke 'getQuests', this
         _this.render()

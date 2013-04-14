@@ -23,6 +23,7 @@ define([
 
     quests: []
 
+    # Manually call once ItemCollection and QuestCollection are both finished loading
     getQuests: (questCollection) ->
       @quests = questCollection.filter (questModel) =>
         questModel.get('rewards').findWhere({id: @get('id')}) isnt undefined
