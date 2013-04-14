@@ -4,7 +4,10 @@
 
 # Configure
 requirejs.config
+  # Set the default JS location
   baseUrl: 'js'
+
+  # Set special JS locations
   paths:
     lib: '../lib'
     tmpl: '../tmpl'
