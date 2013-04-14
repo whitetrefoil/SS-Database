@@ -8,6 +8,7 @@ define([
   'collections/itemType'
   'collections/monster'
   'collections/quest'
+  'views/monster'
 ], (
   ItemCollection
   ItemElemCollection
@@ -16,6 +17,7 @@ define([
   ItemTypeCollection
   MonsterCollection
   QuestCollection
+  MonsterView
 ) ->
   # ### Initializing / Loading Data ###
   exports = {}
@@ -29,6 +31,7 @@ define([
     # Initialize Quest Data in Items
     exports.items.invoke('getQuests', this)
   exports.monsters = new MonsterCollection
+  exports.monsterView = new MonsterView
 
   exports
 )
