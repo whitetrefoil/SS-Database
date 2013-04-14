@@ -1,8 +1,11 @@
 'use strict'
 
 define([
-  'models/item'
+  'backbone',
+  'models/item',
+  'backbone-relational'
 ], (
+  Backbone,
   Item
 ) ->
   # 任务

@@ -8,14 +8,28 @@ requirejs.config
   paths:
     lib: '../lib'
     tmpl: '../tmpl'
+    jquery: '../lib/jquery/jquery'
+    underscore: '../lib/underscore/underscore'
+    backbone: '../lib/backbone/backbone'
+    'backbone-relational': '../lib/backbone/backbone-relational'
 
-# Require global libraries
-requirejs([
-  'lib/jquery/jquery',
-  'lib/underscore/underscore',
-  'lib/backbone/backbone',
-  'lib/backbone/backbone-relational',
-])
+  # Set libraries that are not compatible with AMD API
+  shim:
+    # jQuery
+    jquery:
+      exports: '$'
+
+    # Underscore
+    underscore:
+      exports: '_'
+
+    # Backbone
+    backbone:
+      deps: ['jquery', 'underscore']
+      exports: 'Backbone'
+
+    # Backbone-relational
+    'backbone-relational': ['backbone']
 
 # Require private scripts
 requirejs([

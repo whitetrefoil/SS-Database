@@ -1,10 +1,13 @@
 'use strict'
 
 define([
+  'backbone',
   'models/itemType',
   'models/itemElem',
-  'models/itemRange'
+  'models/itemRange',
+  'backbone-relational'
 ], (
+  Backbone,
   ItemType,
   ItemElem,
   ItemRange
