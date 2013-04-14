@@ -16,4 +16,7 @@ define([
       relatedModel: Item
       includeInJSON: true
     }]
+
+  # Return (exports)
+  Quest
 )

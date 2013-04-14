@@ -11,4 +11,7 @@ define([
 
     initialize: ->
       @fetch()
+
+  # Return (exports)
+  ItemElemCollection
 )

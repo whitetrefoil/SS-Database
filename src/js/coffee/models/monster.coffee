@@ -8,4 +8,7 @@ define([
 ) ->
   # 魔物
   class Monster extends Backbone.RelationalModel
+
+  # Return (exports)
+  Monster
 )

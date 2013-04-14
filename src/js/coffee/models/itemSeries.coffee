@@ -42,4 +42,7 @@ define([
         includeInJSON: ['id', 'name']
       }
     }]
+
+  # Return (exports)
+  ItemSeries
 )

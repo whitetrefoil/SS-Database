@@ -10,4 +10,7 @@ define([
     url: 'data/quest.json'
     initialize: ->
       @fetch()
+
+  # Return (exports)
+  QuestCollection
 )

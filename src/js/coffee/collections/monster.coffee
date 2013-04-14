@@ -10,4 +10,7 @@ define([
     url: 'data/monster.json'
     initialize: ->
       @fetch()
+
+  # Return (exports)
+  MonsterCollection
 )

@@ -27,4 +27,6 @@ define([
       @quests = questCollection.filter (questModel) =>
         questModel.get('rewards').findWhere({id: @get('id')}) isnt undefined
 
+  # Return (exports)
+  Item
 )
