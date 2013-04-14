@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>quest.coffee</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+  <link rel="stylesheet" media="all" href="docco.css" />
+</head>
+<body>
+  <div id="container">
+    <div id="background"></div>
+    
+      <ul id="jump_to">
+        <li>
+          <a class="large" href="javascript:void(0);">Jump To &hellip;</a>
+          <a class="small" href="javascript:void(0);">+</a>
+          <div id="jump_wrapper">
+          <div id="jump_page">
+            
+              
+              <a class="source" href="item.html">
+                item.coffee
+              </a>
+            
+              
+              <a class="source" href="itemElem.html">
+                itemElem.coffee
+              </a>
+            
+              
+              <a class="source" href="itemRange.html">
+                itemRange.coffee
+              </a>
+            
+              
+              <a class="source" href="itemSeries.html">
+                itemSeries.coffee
+              </a>
+            
+              
+              <a class="source" href="itemType.html">
+                itemType.coffee
+              </a>
+            
+              
+              <a class="source" href="monster.html">
+                monster.coffee
+              </a>
+            
+              
+              <a class="source" href="quest.html">
+                quest.coffee
+              </a>
+            
+              
+              <a class="source" href="data.html">
+                data.coffee
+              </a>
+            
+              
+              <a class="source" href="main.html">
+                main.coffee
+              </a>
+            
+              
+              <a class="source" href="item.html">
+                item.coffee
+              </a>
+            
+              
+              <a class="source" href="itemElem.html">
+                itemElem.coffee
+              </a>
+            
+              
+              <a class="source" href="itemRange.html">
+                itemRange.coffee
+              </a>
+            
+              
+              <a class="source" href="itemSeries.html">
+                itemSeries.coffee
+              </a>
+            
+              
+              <a class="source" href="itemType.html">
+                itemType.coffee
+              </a>
+            
+              
+              <a class="source" href="monster.html">
+                monster.coffee
+              </a>
+            
+              
+              <a class="source" href="quest.html">
+                quest.coffee
+              </a>
+            
+              
+              <a class="source" href="ui.html">
+                ui.coffee
+              </a>
+            
+              
+              <a class="source" href="app.html">
+                app.coffee
+              </a>
+            
+              
+              <a class="source" href="item.html">
+                item.coffee
+              </a>
+            
+              
+              <a class="source" href="monster.html">
+                monster.coffee
+              </a>
+            
+              
+              <a class="source" href="quest.html">
+                quest.coffee
+              </a>
+            
+          </div>
+        </li>
+      </ul>
+    
+    <ul class="sections">
+        
+          <li id="title">
+              <div class="annotation">
+                  <h1>quest.coffee</h1>
+              </div>
+          </li>
+        
+        
+        
+        <li id="section-1">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-1">&#182;</a>
+              </div>
+              
+            </div>
+            
+            <div class="content"><div class='highlight'><pre><span class="string">'use strict'</span>
+
+define([
+  <span class="string">'mustache'</span>
+  <span class="string">'collections/quest'</span>
+  <span class="string">'text!tmpl/quest.html!strip'</span>
+], (
+  Mustache
+  QuestCollection
+  template
+) -&gt;
+  <span class="class"><span class="keyword">class</span> <span class="title">QuestView</span> <span class="keyword">extends</span> <span class="title">Backbone</span>.<span class="title">View</span></span>
+    el: <span class="string">'#quests'</span>
+
+    collection: <span class="literal">null</span>
+
+    initialize: (options) -&gt;
+      _<span class="keyword">this</span> = <span class="keyword">this</span>
+      <span class="property">@collection</span> = <span class="keyword">new</span> QuestCollection</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-2">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-2">&#182;</a>
+              </div>
+              <p>Call <code>itemCollection.getQuests()</code> to emulate many-to-many
+relationship betweet quests and items</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>      <span class="property">@collection</span>.<span class="literal">on</span> <span class="string">'sync'</span>, -&gt;
+        options.itemCollection.invoke <span class="string">'getQuests'</span>, <span class="keyword">this</span>
+        _<span class="keyword">this</span>.render()
+
+    render: -&gt;
+      data = <span class="property">@collection</span>.toJSON()
+      <span class="property">@$el</span>.append(Mustache.render(template, data))</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-3">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-3">&#182;</a>
+              </div>
+              <p>Return (exports)</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>  QuestView
+)</pre></div></div>
+            
+        </li>
+        
+    </ul>
+  </div>
+</body>
+</html>
