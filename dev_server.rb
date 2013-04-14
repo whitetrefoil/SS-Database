@@ -23,15 +23,15 @@ class DevServer < Sinatra::Base
   end
 
   get '/css/*.css' do
-    sass :"#{params[:splat][0]}", :cache => false, :style => :expanded, :views => 'src/css/sass'
+    sass :"#{params[:splat][0]}", :cache => false, :style => :expanded, :views => 'src/css/sass' rescue pass
   end
 
   get '/js/*.js' do
-    coffee :"#{params[:splat][0]}", :views => 'src/js/coffee'
+    coffee :"#{params[:splat][0]}", :views => 'src/js/coffee' rescue pass
   end
 
   get '/*' do
-    send_file settings.views + '/' + params[:splat][0]
+    send_file settings.views + '/' + params[:splat][0] rescue pass
   end
 
   not_found do
