@@ -10,19 +10,18 @@ define([
   template
 ) ->
   class ItemView extends Backbone.View
-    parent: '#items'
+    el: '#items'
 
-    collection: new ItemCollection
+    collection: null
 
     initialize: ->
-      list = $('<dl></dl>')
-      list.appendTo @parent
-      @parent = list
-      @render()
+      @collection = new ItemCollection
+      @collection.on 'sync', =>
+        @render()
 
     render: ->
       data = @collection.toJSON()
-      @parent.append(Mustache.render(template, data))
+      @$el.append(Mustache.render(template, data))
 
   # Return (exports)
   ItemView

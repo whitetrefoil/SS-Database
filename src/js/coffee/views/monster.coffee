@@ -10,19 +10,18 @@ define([
   template
 ) ->
   class MonsterView extends Backbone.View
-    parent: '#monsters'
+    el: '#monsters'
 
-    collection: new MonsterCollection
+    collection: null
 
     initialize: ->
-      list = $('<dl></dl>')
-      list.appendTo @parent
-      @parent = list
-      @render()
+      @collection = new MonsterCollection
+      @collection.on 'sync', =>
+        @render()
 
     render: ->
       data = @collection.toJSON()
-      @parent.append(Mustache.render(template, data))
+      @$el.append(Mustache.render(template, data))
 
   # Return (exports)
   MonsterView
