@@ -1,23 +1,24 @@
 'use strict'
 
 define([
+  'backbone'
   'mustache'
-  'collections/quest'
+  'data'
   'text!tmpl/quest.html!strip'
 ], (
+  Backbone
   Mustache
-  QuestCollection
+  DataStore
   template
 ) ->
   class QuestView extends Backbone.View
     el: '#questsPage'
 
-    collection: null
+    collection: DataStore.quests
 
     initialize: () ->
       _this = this
       @$el.hide()
-      @collection = new QuestCollection
 
       # Call `itemCollection.getQuests()` to emulate many-to-many
       # relationship betweet quests and items

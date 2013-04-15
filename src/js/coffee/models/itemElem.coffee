@@ -2,12 +2,11 @@
 
 define([
   'backbone'
-  'backbone-relational'
 ], (
   Backbone
 ) ->
   # 武器元素属性
-  class ItemElem extends Backbone.RelationalModel
+  class ItemElem extends Backbone.Model
 
   # Return (exports)
   ItemElem

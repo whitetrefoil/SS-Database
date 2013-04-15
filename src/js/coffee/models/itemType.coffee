@@ -2,12 +2,11 @@
 
 define([
   'backbone'
-  'backbone-relational'
 ], (
   Backbone
 ) ->
   # 道具类型 / 武器类型
-  class ItemType extends Backbone.RelationalModel
+  class ItemType extends Backbone.Model
 
   # Return (exports)
   ItemType

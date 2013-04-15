@@ -14,7 +14,6 @@ requirejs.config
     jquery: '../lib/jquery/jquery'
     underscore: '../lib/underscore/underscore'
     backbone: '../lib/backbone/backbone'
-    'backbone-relational': '../lib/backbone/backbone-relational'
     mustache: '../lib/mustache/mustache'
 
   # Set libraries that are not compatible with AMD API
@@ -32,13 +31,17 @@ requirejs.config
       deps: ['jquery', 'underscore']
       exports: 'Backbone'
 
-    # Backbone-relational
-    'backbone-relational': ['backbone']
-
 # Require private scripts
 requirejs([
-  'data'
-], (app) ->
+  'backbone'
+  'router'
+], (
+  Backbone
+  Router
+) ->
+  router = new Router
+  Backbone.history.start()
+
   # Export App to global for development
-  window.App = app
+  window.App = router
 )

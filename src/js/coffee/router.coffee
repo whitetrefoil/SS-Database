@@ -1,6 +1,7 @@
 define([
   'backbone'
   'jquery'
+  'data'
   'views/app'
   'views/monster'
   'views/item'
@@ -8,6 +9,7 @@ define([
 ], (
   Backbone
   $
+  DataStore
   AppView
   MonsterView
   ItemView

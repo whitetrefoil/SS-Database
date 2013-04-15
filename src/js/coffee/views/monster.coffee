@@ -1,22 +1,23 @@
 'use strict'
 
 define([
+  'backbone'
   'mustache'
-  'collections/monster'
+  'data'
   'text!tmpl/monster.html'
 ], (
+  Backbone
   Mustache
-  MonsterCollection
+  DataStore
   template
 ) ->
   class MonsterView extends Backbone.View
     el: '#monstersPage'
 
-    collection: null
+    collection: DataStore.monsters
 
     initialize: ->
       @$el.hide()
-      @collection = new MonsterCollection
       @collection.on 'sync', =>
         @trigger 'ready'
         @render()

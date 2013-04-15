@@ -1,14 +1,32 @@
 'use strict'
 
 define([
-  'backbone'
-  'router'
+  'collections/item'
+  'collections/itemElem'
+  'collections/itemRange'
+  'collections/itemSeries'
+  'collections/itemType'
+  'collections/monster'
+  'collections/quest'
 ], (
-  Backbone
-  Router
+  ItemCollection
+  ItemElemCollection
+  ItemRangeCollection
+  ItemSeriesCollection
+  ItemTypeCollection
+  MonsterCollection
+  QuestCollection
 ) ->
-  router = new Router
-  Backbone.history.start()
+  DataStore = {}
 
-  router
+  DataStore.items = new ItemCollection
+  DataStore.itemElems = new ItemElemCollection
+  DataStore.itemRanges = new ItemRangeCollection
+  DataStore.itemSerieses = new ItemSeriesCollection
+  DataStore.itemTypes = new ItemTypeCollection
+  DataStore.monsters = new MonsterCollection
+  DataStore.quests = new QuestCollection
+
+  # Return (exports)
+  DataStore
 )

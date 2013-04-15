@@ -1,56 +1,40 @@
 'use strict'
 
 define([
+  'backbone'
   'mustache'
-  'collections/itemSeries'
-  'collections/quest'
-  'collections/itemType'
-  'collections/itemElem'
-  'collections/itemRange'
-  'collections/item'
+  'data'
   'text!tmpl/item.html!strip'
 ], (
+  Backbone
   Mustache
-  ItemSeriesCollection
-  QuestCollection
-  ItemTypeCollection
-  ItemElemCollection
-  ItemRangeCollection
-  ItemCollection
+  DataStore
   template
 ) ->
-  # Load Item Properties
-  new ItemTypeCollection
-  new ItemElemCollection
-  new ItemRangeCollection
-  new ItemCollection
-
   class ItemView extends Backbone.View
     el: '#itemsPage'
 
-    collection: null
+    collection: DataStore.itemSerieses
 
-    questCollection: null
+    questCollection: DataStore.quests
 
     initialize: ->
       _this = this
       @$el.hide()
-      @collection = new ItemSeriesCollection
-      @questCollection = new QuestCollection
-
-      @collection.on 'sync', ->
-        _this.getQuests()
-        _this.trigger 'ready'
-        _this.render()
-
-      @questCollection.on 'sync', =>
-        @getQuests()
-
-    getQuests: ->
-      unless @collection.length > 0 and @questCollection.length > 0
-        for model in @collection.models
-          model.get('items').invoke 'getQuests', @questCollection
-
+#
+#      @collection.on 'sync', ->
+#        _this.getQuests()
+#        _this.trigger 'ready'
+#        _this.render()
+#
+#      @questCollection.on 'sync', =>
+#        @getQuests()
+#
+#    getQuests: ->
+#      unless @collection.length > 0 and @questCollection.length > 0
+#        for model in @collection.models
+#          model.get('items').invoke 'getQuests', @questCollection
+#
 
     render: ->
       data = @collection.toJSON()

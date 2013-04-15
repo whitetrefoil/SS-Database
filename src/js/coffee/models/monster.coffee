@@ -2,12 +2,11 @@
 
 define([
   'backbone'
-  'backbone-relational'
 ], (
   Backbone
 ) ->
   # 魔物
-  class Monster extends Backbone.RelationalModel
+  class Monster extends Backbone.Model
 
   # Return (exports)
   Monster
