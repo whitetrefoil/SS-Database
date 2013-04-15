@@ -43,6 +43,12 @@ define([
       }
     }]
 
+    name: () ->
+      if @get('items') and @get('items').models.length > 0
+        @get('items').models[0].get('name').replace(/（.*）/, '')
+      else
+        null
+
   # Return (exports)
   ItemSeries
 )
