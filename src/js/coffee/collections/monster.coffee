@@ -12,7 +12,8 @@ define([
     dataStore: {}
 
     setDataStore: (@dataStore) ->
-      @invoke 'setDataStore', @dataStore
+      @once 'sync', =>
+        @invoke 'setDataStore', @dataStore
 
     # Load data once constructed
     initialize: ->
