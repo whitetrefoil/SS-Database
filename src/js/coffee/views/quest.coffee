@@ -14,7 +14,7 @@ define([
 
     collection: null
 
-    initialize: (options) ->
+    initialize: () ->
       _this = this
       @$el.hide()
       @collection = new QuestCollection
@@ -22,7 +22,6 @@ define([
       # Call `itemCollection.getQuests()` to emulate many-to-many
       # relationship betweet quests and items
       @collection.on 'sync', ->
-        options.itemCollection.invoke 'getQuests', this
         _this.trigger 'ready'
         _this.render()
 

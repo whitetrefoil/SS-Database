@@ -51,7 +51,7 @@ define([
       @appView = new AppView
       @monsterView = new MonsterView
       @itemView = new ItemView
-      @questView = new QuestView({itemCollection : @itemView.collection})
+      @questView = new QuestView
 
   return Router
 )

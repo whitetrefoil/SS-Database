@@ -14,6 +14,7 @@ define([
     # 每个供物有（属于）一个系列
       type: Backbone.HasOne
       key: 'itemSeriesId'
+      keyDestination: 'itemSeries'
       relatedModel: ItemSeries
       includeInJSON: ['id']
       reverseRelation: {
