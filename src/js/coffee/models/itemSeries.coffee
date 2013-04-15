@@ -14,6 +14,10 @@ define([
   # 供物系列（比如同一供物的大中小三级，算3个不同的Item，组成一个ItemSeries）
   class ItemSeries extends Backbone.Model
 
+    dataStore: {}
+
+    setDataStore: (@dataStore) ->
+
     name: () ->
       if @get('items') and @get('items').models.length > 0
         @get('items').models[0].get('name').replace(/（.*）/, '')

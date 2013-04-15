@@ -9,6 +9,11 @@ define([
     model: Quest
     url: 'data/quest.json'
 
+    dataStore: {}
+
+    setDataStore: (@dataStore) ->
+      @invoke 'setDataStore', @dataStore
+
     # Load data once constructed
     initialize: ->
       @fetch()

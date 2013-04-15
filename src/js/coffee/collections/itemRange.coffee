@@ -9,6 +9,11 @@ define([
     model: ItemRange
     url: 'data/item_range.json'
 
+    dataStore: {}
+
+    setDataStore: (@dataStore) ->
+      @invoke 'setDataStore', @dataStore
+
     # Load data once constructed
     initialize: ->
       @fetch()

@@ -9,6 +9,11 @@ define([
     model: Monster
     url: 'data/monster.json'
 
+    dataStore: {}
+
+    setDataStore: (@dataStore) ->
+      @invoke 'setDataStore', @dataStore
+
     # Load data once constructed
     initialize: ->
       @fetch()

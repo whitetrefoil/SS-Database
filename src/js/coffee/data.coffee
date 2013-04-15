@@ -27,6 +27,9 @@ define([
   DataStore.monsters = new MonsterCollection
   DataStore.quests = new QuestCollection
 
+  for key of DataStore
+    DataStore[key].setDataStore DataStore
+
   # Return (exports)
   DataStore
 )

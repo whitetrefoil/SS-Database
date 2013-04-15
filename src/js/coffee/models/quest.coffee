@@ -10,6 +10,10 @@ define([
   # 任务
   class Quest extends Backbone.Model
 
+    dataStore: {}
+
+    setDataStore: (@dataStore) ->
+
   # Return (exports)
   Quest
 )
