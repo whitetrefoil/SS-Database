@@ -2,14 +2,8 @@
 
 define([
   'backbone'
-  'models/itemType'
-  'models/itemElem'
-  'models/itemRange'
 ], (
   Backbone
-  ItemType
-  ItemElem
-  ItemRange
 ) ->
   # 供物系列（比如同一供物的大中小三级，算3个不同的Item，组成一个ItemSeries）
   class ItemSeries extends Backbone.Model
@@ -23,6 +17,31 @@ define([
         @get('items').models[0].get('name').replace(/（.*）/, '')
       else
         null
+
+    items: () ->
+      _this = this
+      if @dataStore.items?
+        @dataStore.items.filter (item) ->
+          item.get('id') is _this.attributes['id']
+
+    type: () ->
+      if @dataStore.itemTypes?
+        @dataStore.itemTypes.findWhere(
+          id: @attributes['type']
+        )
+
+    elem: () ->
+      if @dataStore.itemElems?
+        @dataStore.itemElems.findWhere(
+          id: @attributes['elem']
+        )
+
+    range: () ->
+      if @dataStore.itemRanges
+        @dataStore.itemRanges.findWhere(
+          id: @attributes['range']
+        )
+
 
   # Return (exports)
   ItemSeries
