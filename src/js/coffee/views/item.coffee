@@ -18,6 +18,8 @@ define([
 
     questCollection: DataStore.quests
 
+    renderTemplate: Mustache.compile(template)
+
     initialize: ->
       _this = this
       @$el.hide()
@@ -38,7 +40,7 @@ define([
 
     render: ->
       data = @collection.toJSON()
-      @$el.append(Mustache.render(template, data))
+      @$el.html(@renderTemplate(data))
 
     show: (ms) ->
       @$el.show(ms)

@@ -16,6 +16,8 @@ define([
 
     collection: DataStore.monsters
 
+    renderTemplate: Mustache.compile(template)
+
     initialize: ->
       @$el.hide()
       @collection.on 'sync', =>
@@ -24,7 +26,7 @@ define([
 
     render: ->
       data = @collection.toJSON()
-      @$el.append(Mustache.render(template, data))
+      @$el.html(@renderTemplate(data))
 
     show: (ms) ->
       @$el.show(ms)
