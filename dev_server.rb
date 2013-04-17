@@ -2,6 +2,7 @@
 require 'sinatra/base'
 require 'coffee-script'
 require 'sass'
+require 'slim'
 
 module Tilt
   class CoffeeScriptTemplate < Template
@@ -24,6 +25,10 @@ class DevServer < Sinatra::Base
 
   before do
     expires -1
+  end
+
+  get '/*.html' do
+    slim :"#{params[:splat][0]}" rescue pass
   end
 
   get '/css/*.css' do
