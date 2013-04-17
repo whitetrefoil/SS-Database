@@ -58,6 +58,10 @@ define([
           if json[key].toJSON and typeof json[key].toJSON is 'function'
             json[key] = json[key].toJSON()
 
+        json['items'] = @items()
+        for item, i in json['items']
+          json['items'][i] = item.toJSON()
+
       json
 
 
