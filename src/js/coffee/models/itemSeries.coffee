@@ -24,7 +24,7 @@ define([
       _this = this
       if @dataStore.items?
         @dataStore.items.filter (item) ->
-          item.get('id') is _this.attributes['id']
+          item.get('itemSeriesId') is _this.attributes['id']
 
     type: () ->
       if @dataStore.itemTypes?
