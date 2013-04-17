@@ -1,8 +1,10 @@
 'use strict'
 
 define([
+  'underscore'
   'backbone'
 ], (
+  _
   Backbone
 ) ->
   # 供物系列（比如同一供物的大中小三级，算3个不同的Item，组成一个ItemSeries）
@@ -41,6 +43,22 @@ define([
         @dataStore.itemRanges.findWhere(
           id: @attributes['range']
         )
+
+    # Overwrite `toJSON()` function.
+    toJSON: (keys) ->
+      json = @attributes
+
+      # Filter keys
+      if keys?
+        json = _.pick json, keys
+
+      for key of json
+        if typeof this[key] is 'function'
+          json[key] = this[key]()
+          if json[key].toJSON and typeof json[key].toJSON is 'function'
+            json[key] = json[key].toJSON()
+
+      json
 
 
   # Return (exports)
