@@ -3,26 +3,23 @@
 define([
   'backbone'
   'mustache'
-  'data'
   'text!tmpl/monster.html'
 ], (
   Backbone
   Mustache
-  DataStore
   template
 ) ->
   class MonsterView extends Backbone.View
     el: '#monstersPage'
 
-    collection: DataStore.monsters
-
     renderTemplate: Mustache.compile(template)
 
-    initialize: ->
+    initialize: (options) ->
       @$el.hide()
-      @collection.on 'sync', =>
-        @trigger 'ready'
-        @render()
+      @dataStore = options.dataStore
+      @collection = @dataStore.monsters
+      @trigger 'ready'
+      @render()
 
     render: ->
       data = @collection.toJSON()

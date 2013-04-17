@@ -1,6 +1,7 @@
 'use strict'
 
 define([
+  'backbone'
   'collections/item'
   'collections/itemElem'
   'collections/itemRange'
@@ -9,6 +10,7 @@ define([
   'collections/monster'
   'collections/quest'
 ], (
+  Backbone
   ItemCollection
   ItemElemCollection
   ItemRangeCollection
@@ -17,19 +19,36 @@ define([
   MonsterCollection
   QuestCollection
 ) ->
-  DataStore = {}
+  checkReadyDataStores = (dataStore) ->
+    isAllReady = true
 
-  DataStore.items = new ItemCollection
-  DataStore.itemElems = new ItemElemCollection
-  DataStore.itemRanges = new ItemRangeCollection
-  DataStore.itemSerieses = new ItemSeriesCollection
-  DataStore.itemTypes = new ItemTypeCollection
-  DataStore.monsters = new MonsterCollection
-  DataStore.quests = new QuestCollection
+    for key of dataStore
+      unless dataStore[key].isReady
+        isAllReady = false
+        break
 
-  for key of DataStore
-    DataStore[key].setDataStore DataStore
+    isAllReady
+
+  waitForDataStore = (callback) ->
+    dataStore = {}
+
+    dataStore.items = new ItemCollection
+    dataStore.itemElems = new ItemElemCollection
+    dataStore.itemRanges = new ItemRangeCollection
+    dataStore.itemSerieses = new ItemSeriesCollection
+    dataStore.itemTypes = new ItemTypeCollection
+    dataStore.monsters = new MonsterCollection
+    dataStore.quests = new QuestCollection
+
+    for key of dataStore
+      dataStore[key].setDataStore dataStore
+      dataStore[key].once 'sync', ->
+        if checkReadyDataStores(dataStore)
+          callback(dataStore)
+        else
+          # Do nothing
 
   # Return (exports)
-  DataStore
+  waitForDataStore
+
 )

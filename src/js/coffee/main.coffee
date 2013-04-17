@@ -34,14 +34,19 @@ requirejs.config
 # Require private scripts
 requirejs([
   'backbone'
+  'data'
   'router'
 ], (
   Backbone
+  waitForDataStore
   Router
 ) ->
-  router = new Router
-  Backbone.history.start()
+  waitForDataStore (dataStore) ->
+    router = new Router({dataStore: dataStore})
+    Backbone.history.start()
 
-  # Export App to global for development
-  window.App = router
+    # Export App to global for development
+    window.App = router
+
+  window.App
 )

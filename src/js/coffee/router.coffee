@@ -1,7 +1,6 @@
 define([
   'backbone'
   'jquery'
-  'data'
   'views/app'
   'views/monster'
   'views/item'
@@ -9,7 +8,6 @@ define([
 ], (
   Backbone
   $
-  DataStore
   AppView
   MonsterView
   ItemView
@@ -48,12 +46,12 @@ define([
       @questView.show()
 
     # Coustructor
-    initialize: () ->
+    initialize: (options) ->
 
-      @appView = new AppView
-      @monsterView = new MonsterView
-      @itemView = new ItemView
-      @questView = new QuestView
+      @appView = new AppView({dataStore: options.dataStore})
+      @monsterView = new MonsterView({dataStore: options.dataStore})
+      @itemView = new ItemView({dataStore: options.dataStore})
+      @questView = new QuestView({dataStore: options.dataStore})
 
   return Router
 )

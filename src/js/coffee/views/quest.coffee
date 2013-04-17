@@ -3,30 +3,23 @@
 define([
   'backbone'
   'mustache'
-  'data'
   'text!tmpl/quest.html!strip'
 ], (
   Backbone
   Mustache
-  DataStore
   template
 ) ->
   class QuestView extends Backbone.View
     el: '#questsPage'
 
-    collection: DataStore.quests
-
     renderTemplate: Mustache.compile(template)
 
-    initialize: () ->
-      _this = this
+    initialize: (options) ->
       @$el.hide()
-
-      # Call `itemCollection.getQuests()` to emulate many-to-many
-      # relationship betweet quests and items
-      @collection.on 'sync', ->
-        _this.trigger 'ready'
-        _this.render()
+      @dataStore = options.dataStore
+      @collection = @dataStore.quests
+      @trigger 'ready'
+      @render()
 
     render: ->
       data = @collection.toJSON()

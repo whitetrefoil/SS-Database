@@ -3,31 +3,25 @@
 define([
   'backbone'
   'mustache'
-  'data'
   'text!tmpl/item.html!strip'
 ], (
   Backbone
   Mustache
-  DataStore
   template
 ) ->
   class ItemView extends Backbone.View
     el: '#itemsPage'
 
-    collection: DataStore.itemSerieses
-
-    questCollection: DataStore.quests
-
     renderTemplate: Mustache.compile(template)
 
-    initialize: ->
-      _this = this
+    initialize: (options) ->
       @$el.hide()
-#
-#      @collection.on 'sync', ->
-#        _this.getQuests()
-#        _this.trigger 'ready'
-#        _this.render()
+      @dataStore = options.dataStore
+      @collection = @dataStore.itemSerieses
+      @questCollection = @dataStore.quests
+#      @getQuests()
+#      @trigger 'ready'
+      @render()
 #
 #      @questCollection.on 'sync', =>
 #        @getQuests()
@@ -40,6 +34,7 @@ define([
 
     render: ->
       data = @collection.toJSON()
+      console.log data
       @$el.html(@renderTemplate(data))
 
     show: (ms) ->
