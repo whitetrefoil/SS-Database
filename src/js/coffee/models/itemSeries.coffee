@@ -14,11 +14,8 @@ define([
 
     setDataStore: (@dataStore) ->
 
-    name: () ->
-      if @get('items') and @get('items').models.length > 0
-        @get('items').models[0].get('name').replace(/（.*）/, '')
-      else
-        null
+    name: (firstItem) ->
+      firstItem['name'].replace(/（.*）/, '')
 
     items: () ->
       _this = this
@@ -62,6 +59,9 @@ define([
         json['items'] = @items()
         for item, i in json['items']
           json['items'][i] = item.toJSON()
+
+        # Dynamically generate item series name.
+        json['name'] = @name(json['items'][0])
 
       json
 
