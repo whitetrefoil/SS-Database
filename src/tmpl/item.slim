@@ -6,5 +6,25 @@ html lang="en-US"
 
   body
     | {{#.}}
-    section.itemSeries id="itemSeries-{{id}}" {{name}}
+    section.itemSeries id="itemSeries-{{id}}"
+      span.item-elem {{elem.name}}
+      span.item-series-name {{name}}
+      span.item-type {{type.name}}
+      span.item-range {{range.name}}
+    table
+      tr
+        th 名称
+        td 攻击力
+        td colspan=4 耐久(0/1/2/3★)
+        td 效果时间
+      | {{#items}}
+      tr
+        th {{name}}
+        td {{effect}}
+        td {{count}}
+        td {{count1}}
+        td {{count2}}
+        td {{count3}}
+        td {{time}}
+      | {{/items}}
     | {{/.}}
