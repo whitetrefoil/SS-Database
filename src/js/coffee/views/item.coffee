@@ -34,7 +34,6 @@ define([
 
     render: ->
       data = @collection.toJSON()
-      console.log data
       @$el.html(@renderTemplate(data))
 
     show: (ms) ->
