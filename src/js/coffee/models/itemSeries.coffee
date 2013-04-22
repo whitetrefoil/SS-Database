@@ -46,7 +46,8 @@ define([
 
     # Overwrite `toJSON()` function.
     toJSON: (keys) ->
-      json = @attributes
+      # Deep clone the @attributes object
+      json = $.extend true, {}, @attributes
 
       # Filter keys
       if keys?
