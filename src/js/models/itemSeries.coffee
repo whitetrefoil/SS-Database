@@ -60,8 +60,9 @@ define([
           if json[key].toJSON and typeof json[key].toJSON is 'function'
             json[key] = json[key].toJSON()
 
-        # Dynamically generate item series name.
-        json['name'] = @name(json['items'][0])
+      json['items'] = @items()
+      # Dynamically generate item series name.
+      json['name'] = @name(json['items'][0])
 
       json
 
