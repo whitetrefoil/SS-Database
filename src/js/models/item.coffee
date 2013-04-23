@@ -30,6 +30,8 @@ define([
       if keys?
         json = _.pick json, keys
 
+      # If there's a function has same name of this key in this instance,
+      # use the return value instead the value in @attibutes
       for key of json
         if typeof this[key] is 'function'
           json[key] = this[key]()

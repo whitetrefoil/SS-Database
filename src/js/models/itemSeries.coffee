@@ -19,9 +19,11 @@ define([
 
     items: () ->
       _this = this
-      if @dataStore.items?
-        @dataStore.items.filter (item) ->
-          item.get('itemSeriesId') is _this.attributes['id']
+      itemModels = @dataStore.items.filter (item) ->
+        item.get('itemSeriesId') is _this.attributes['id']
+      for item, i in itemModels
+        itemModels[i] = item.toJSON()
+      itemModels
 
     type: () ->
       if @dataStore.itemTypes?
@@ -50,15 +52,13 @@ define([
       if keys?
         json = _.pick json, keys
 
+      # If there's a function has same name of this key in this instance,
+      # use the return value instead the value in @attibutes
       for key of json
         if typeof this[key] is 'function'
           json[key] = this[key]()
           if json[key].toJSON and typeof json[key].toJSON is 'function'
             json[key] = json[key].toJSON()
-
-        json['items'] = @items()
-        for item, i in json['items']
-          json['items'][i] = item.toJSON()
 
         # Dynamically generate item series name.
         json['name'] = @name(json['items'][0])
