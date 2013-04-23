@@ -12,6 +12,18 @@ define([
 
     setDataStore: (@dataStore) ->
 
+    # Overwrite `toJSON()` function.
+    toJSON: (keys) ->
+      # Deep clone the @attributes object
+      json = $.extend true, {}, @attributes
+
+      # Filter keys
+      if keys?
+        json = _.pick json, keys
+
+      json
+
+
   # Return (exports)
   ItemType
 )

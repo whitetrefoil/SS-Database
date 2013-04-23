@@ -1,0 +1,42 @@
+doctype 5
+html lang="zh-CN"
+  head
+    meta charset="UTF-8"
+    title Monster Template
+
+  body
+    | {{#.}}
+    section.monster id="monster-{{id}}"
+      span.monster-name {{name}}
+      span.monster-main-weakness {{mainWeakness.name}}
+    table.monster-parts
+      thead
+        tr
+          th rowspan=2 部位
+          th colspan="{{elems.length}}" 伤害耐性
+        tr
+          | {{#elems}}
+          th class="elem-{{id}}" {{name}}
+          | {{/elems}}
+        | {{#defences}}
+      tbody
+        tr
+          td.monster-part-name {{name}}
+          | {{#defence}}
+          td {{.}}
+          | {{/defence}}
+        | {{/defences}}
+    table.monster-resist
+      thead
+        tr
+          th colspan="{{resist.length}}" 状态耐性
+        tr
+          | {{#resistElems}}
+          th class="elem-{{id}}" {{name}}
+          | {{/resistElems}}
+      tbody
+        tr
+          | {{#resist}}
+          td {{.}}
+          | {{/resist}}
+    | {{/.}}
